@@ -52,6 +52,17 @@ Python 3.10 was used. Create an isolated environment, then run:
 
 ```bash
 python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python src/check_reproduction.py
+```
+
+The reproduction command uses a disposable copy: it reruns both lag scenarios, independently checks the calculations and resampling intervals, compares every summary field with the released results, and regenerates all three figures. The published files remain unchanged. Numerical comparisons allow relative rounding of `1e-7` and absolute rounding of `1e-9`; this is a reproducibility tolerance, not a statistical decision threshold.
+
+The [revision workflow](.github/workflows/verify.yml) runs these checks on pull requests and changes to `main`, using the retained aggregate snapshots. It has read-only permissions, a ten-minute limit and a standard public-repository runner. It makes no live source-data requests and uses no account secrets. Dependency installation requires internet access. Automated figure generation does not replace visual review or establish scientific validity.
+
+To regenerate the artifacts in your own working copy instead:
+
+```bash
 python src/analyze.py
 python src/verify.py
 python src/verify_intervals.py
