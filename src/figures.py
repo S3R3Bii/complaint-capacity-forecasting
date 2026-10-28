@@ -45,7 +45,7 @@ axes[1].set_xlabel('Capacity loss difference: ridge − baseline\nNegative value
 axes[1].set_ylabel('Under-capacity : over-capacity cost')
 axes[1].set_title('Decision value is less certain',loc='left',pad=14)
 fig.suptitle('A more accurate forecast did not establish a better capacity policy',x=.01,ha='left',fontsize=17,fontweight='bold',y=1.07)
-fig.text(.01,-.06,'Test: July 2024–June 2026 · 144 product-months · 6 products · Counts lagged by two months\nIntervals: 95% circular six-month block resampling of 24 test months. Cost ratios are scenarios; no dollar savings measured.',fontsize=9,color='#526273')
+fig.text(.01,-.06,'Corrected retrospective test: July 2024–June 2026 · 144 product-months · 6 products · Two-month information delay\nIntervals: 95% circular six-month block resampling of 24 test months. Cost ratios are scenarios; no dollar savings measured.',fontsize=9,color='#526273')
 fig.tight_layout(w_pad=3)
 save(fig,'forecast-and-decision')
 

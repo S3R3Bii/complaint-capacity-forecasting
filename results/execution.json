@@ -1,5 +1,5 @@
 {
-  "completed_utc": "2026-10-28T16:59:11.713416+00:00",
+  "completed_utc": "2026-10-28T18:04:49.061266+00:00",
   "python": "3.10.11",
   "numpy": "2.2.5",
   "pandas": "2.3.3",
@@ -14,121 +14,127 @@
     "selected_model": "last_available",
     "selected_ml_model": "ridge_a0.1",
     "selected_baseline": "last_available",
-    "initial_training_rows": 288,
+    "initial_training_rows": 282,
     "validation_rows": 108,
     "test_rows": 144,
+    "evaluation_status": "Corrected retrospective evaluation; test previously inspected. No new confirmatory claim.",
+    "selection_metric": "Pooled validation normalized MAE; lower is better; model name breaks ties.",
+    "search_limit": "Finite prespecified grid, not a global optimum. Ridge alpha 0.1 and 100 are search boundaries.",
     "product_scales": {
-      "Checking or savings account": 2323.5,
-      "Debt collection": 4673.5,
-      "Money transfer, virtual currency, or money service": 874.0,
-      "Mortgage": 2010.5,
-      "Student loan": 465.5,
-      "Vehicle loan or lease": 609.5
+      "Checking or savings account": 2312.0,
+      "Debt collection": 4644.0,
+      "Money transfer, virtual currency, or money service": 865.0,
+      "Mortgage": 2012.0,
+      "Student loan": 462.0,
+      "Vehicle loan or lease": 601.0
     },
-    "validation_score": 0.2656547641262835,
+    "validation_score": 0.26771264992589067,
     "test_normalized_mae": {
-      "last_available": 1.3352343665208113,
-      "ridge_a0.1": 1.1159341952044732,
-      "seasonal": 1.8356245480835278,
-      "trailing_mean": 1.3022421272638802
+      "last_available": 1.3477289901469363,
+      "ridge_a0.1": 1.121306250617705,
+      "seasonal": 1.8520122304892384,
+      "trailing_mean": 1.3143559467792676
     },
     "capacity_comparisons": [
       {
         "cost_ratio": 1,
         "ml_model": "ridge_a0.1",
         "baseline": "last_available",
-        "ml_mean_cost": 1.130402950051568,
-        "baseline_mean_cost": 1.3343855512756113,
-        "paired_difference_ml_minus_baseline": -0.20398260122404346,
+        "ml_mean_cost": 1.1347987720847104,
+        "baseline_mean_cost": 1.3468759528535876,
+        "paired_difference_ml_minus_baseline": -0.2120771807688774,
         "block_resampling_interval_95": [
-          -0.7500528368390679,
-          0.11241531951945027
+          -0.769363105991855,
+          0.11050848135202533
         ]
       },
       {
         "cost_ratio": 3,
         "ml_model": "ridge_a0.1",
         "baseline": "last_available",
-        "ml_mean_cost": 2.6866329941849045,
-        "baseline_mean_cost": 2.696692833933362,
-        "paired_difference_ml_minus_baseline": -0.0100598397484577,
+        "ml_mean_cost": 2.709475650489214,
+        "baseline_mean_cost": 2.721631982293657,
+        "paired_difference_ml_minus_baseline": -0.012156331804444457,
         "block_resampling_interval_95": [
-          -0.5498223620361716,
-          0.38711046579494196
+          -0.5593674730975638,
+          0.3930090086000651
         ]
       },
       {
         "cost_ratio": 9,
         "ml_model": "ridge_a0.1",
         "baseline": "last_available",
-        "ml_mean_cost": 6.115135685532487,
-        "baseline_mean_cost": 6.060355558150589,
-        "paired_difference_ml_minus_baseline": 0.05478012738189786,
+        "ml_mean_cost": 6.189722750343126,
+        "baseline_mean_cost": 6.116111030319931,
+        "paired_difference_ml_minus_baseline": 0.07361172002319614,
         "block_resampling_interval_95": [
-          -0.603945161639359,
-          0.6392548715814811
+          -0.5958225141903536,
+          0.6677443890460982
         ]
       }
     ]
   },
   "sensitivity_scenario": {
     "delay_months": 3,
-    "selected_model": "ridge_a10",
-    "selected_ml_model": "ridge_a10",
+    "selected_model": "ridge_a100",
+    "selected_ml_model": "ridge_a100",
     "selected_baseline": "last_available",
-    "initial_training_rows": 288,
+    "initial_training_rows": 276,
     "validation_rows": 108,
     "test_rows": 144,
+    "evaluation_status": "Corrected retrospective evaluation; test previously inspected. No new confirmatory claim.",
+    "selection_metric": "Pooled validation normalized MAE; lower is better; model name breaks ties.",
+    "search_limit": "Finite prespecified grid, not a global optimum. Ridge alpha 0.1 and 100 are search boundaries.",
     "product_scales": {
-      "Checking or savings account": 2323.5,
+      "Checking or savings account": 2251.5,
       "Debt collection": 4673.5,
-      "Money transfer, virtual currency, or money service": 874.0,
-      "Mortgage": 2010.5,
-      "Student loan": 465.5,
-      "Vehicle loan or lease": 609.5
+      "Money transfer, virtual currency, or money service": 847.5,
+      "Mortgage": 2015.5,
+      "Student loan": 446.0,
+      "Vehicle loan or lease": 599.5
     },
-    "validation_score": 0.3432485802887897,
+    "validation_score": 0.3554398664498244,
     "test_normalized_mae": {
-      "last_available": 1.3704102396311066,
-      "ridge_a10": 1.0136752886586846,
-      "seasonal": 1.8356245480835278,
-      "trailing_mean": 1.3690010818780058
+      "last_available": 1.4105444622899173,
+      "ridge_a100": 1.108856035920632,
+      "seasonal": 1.8812801973155833,
+      "trailing_mean": 1.4092293211519755
     },
     "capacity_comparisons": [
       {
         "cost_ratio": 1,
-        "ml_model": "ridge_a10",
+        "ml_model": "ridge_a100",
         "baseline": "last_available",
-        "ml_mean_cost": 1.0264709452507426,
-        "baseline_mean_cost": 1.3599729938521925,
-        "paired_difference_ml_minus_baseline": -0.3335020486014499,
+        "ml_mean_cost": 1.1198555014065803,
+        "baseline_mean_cost": 1.3999558950149378,
+        "paired_difference_ml_minus_baseline": -0.28010039360835726,
         "block_resampling_interval_95": [
-          -1.1321524515333143,
-          0.13312367273875803
+          -1.1455884766177171,
+          0.21446670195556314
         ]
       },
       {
         "cost_ratio": 3,
-        "ml_model": "ridge_a10",
+        "ml_model": "ridge_a100",
         "baseline": "last_available",
-        "ml_mean_cost": 2.5006243144136544,
-        "baseline_mean_cost": 2.7201561638634453,
-        "paired_difference_ml_minus_baseline": -0.21953184944979154,
+        "ml_mean_cost": 2.701591006524008,
+        "baseline_mean_cost": 2.7991868692430923,
+        "paired_difference_ml_minus_baseline": -0.09759586271908476,
         "block_resampling_interval_95": [
-          -1.011740090131221,
-          0.27451002979060224
+          -0.962670667191812,
+          0.4362694343992105
         ]
       },
       {
         "cost_ratio": 9,
-        "ml_model": "ridge_a10",
+        "ml_model": "ridge_a100",
         "baseline": "last_available",
-        "ml_mean_cost": 5.948707637846489,
-        "baseline_mean_cost": 6.04925994403644,
-        "paired_difference_ml_minus_baseline": -0.10055230618995126,
+        "ml_mean_cost": 6.380776825873062,
+        "baseline_mean_cost": 6.241334177899366,
+        "paired_difference_ml_minus_baseline": 0.13944264797369552,
         "block_resampling_interval_95": [
-          -0.9808136298576081,
-          0.5403364583337447
+          -0.8361672578229851,
+          0.9274408730013655
         ]
       }
     ]

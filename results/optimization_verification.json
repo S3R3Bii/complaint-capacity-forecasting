@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "lag2: 15 candidates, 45 fold scores, all test metrics, selection, source-label cutoff and scale availability verified",
+    "lag3: 15 candidates, 45 fold scores, all test metrics, selection, source-label cutoff and scale availability verified"
+  ],
+  "independence": "stdlib CSV arithmetic; no fitting-code or metric-helper imports",
+  "limits": "Does not establish historical source vintages, global optimization or a new untouched test."
+}

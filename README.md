@@ -4,7 +4,9 @@
 
 A financial-services operations team must choose review capacity before the incoming workload is known. This study asks whether improved prediction translates into a better capacity decision when shortages cost more than surplus capacity.
 
-The strongest validated machine-learning candidate reduced final-test normalized absolute error by **16.4%** against the last-available-month rule. It did **not** establish a reliable advantage in the capacity-cost scenarios: all three block-resampling intervals for the paired loss difference included zero. The simple rule had won model selection on the earlier validation period.
+In the corrected retrospective evaluation, the strongest validated machine-learning candidate reduced test-period normalized absolute error by **16.8%** against the last-available-month rule. It did **not** establish a reliable advantage in the capacity-cost scenarios: all three block-resampling intervals for the paired loss difference included zero. The simple rule won model selection on the earlier validation period.
+
+**Correction:** a follow-up audit found that the original training-label cutoff and normalization median included labels that were too recent under the assumed publication delay. This release corrects both boundaries and independently verifies them. The test period had already been inspected; the rerun is not a new confirmatory test. The original version is preserved in Git history.
 
 **Recommendation:** retain the operational comparator and run a prospective shadow evaluation with actual handling times and agreed shortage costs before replacing it. No staffing savings or deployed impact are claimed.
 
@@ -16,8 +18,8 @@ The strongest validated machine-learning candidate reduced final-test normalized
 |---|---|
 | SQL and data engineering | Unique product–month keys, nonnegative-count constraints, lag windows and explicit source-month lineage; [SQL queries](sql/) |
 | Source validation | 102 monthly snapshots reconcile to a separate 15,256,569-complaint whole-period query across all 14 buckets; [receipt](results/source_reconciliation.json) |
-| Leakage control | Forward folds, train-only scaling/encoding, fixed initial-training normalization and a final 24-month test |
-| Model tuning | Three baselines, four ridge penalties and eight boosting configurations, with every candidate retained |
+| Availability controls | Forward folds, label cutoffs as well as feature delays, train-only preprocessing and availability-safe normalization |
+| Model tuning | Three baselines, four ridge penalties and eight boosting configurations; every candidate, fold, MAE, MSE and RMSE retained |
 | Decision analysis | Validation-residual capacity calibration, three asymmetric loss scenarios and paired monthly block resampling |
 | Independent checking | A separate standard-library verifier recalculates lineage, selection, errors, quantiles and policy losses |
 
@@ -25,7 +27,7 @@ The strongest validated machine-learning candidate reduced final-test normalized
 
 The source is the public [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/), retrieved 28 October 2026. The release contains **aggregate counts only**. No complaint narratives, names, identifiers, addresses or individual records are retained.
 
-Six consistently named categories are modeled over January 2018–June 2026: checking/savings, debt collection, money transfers, mortgages, student loans and vehicle loans. Feature-complete targets begin in January 2019. The initial training period ends in December 2022; three expanding six-month validation folds cover January 2023–June 2024; the final test covers July 2024–June 2026, or 144 product-months.
+Six consistently named categories are modeled over January 2018–June 2026: checking/savings, debt collection, money transfers, mortgages, student loans and vehicle loans. Feature-complete targets begin in January 2019. The primary initial training period ends in November 2022, consistent with the two-month information delay; three expanding six-month validation folds cover January 2023–June 2024. The retrospective test covers July 2024–June 2026, or 144 product-months; its final model fit uses labels only through May 2024. The three-month scenario purges an additional month.
 
 Primary features use counts at least two months old. A three-month delay is a prespecified sensitivity analysis. These are information-delay assumptions, **not historical release vintages**. Final-snapshot revisions can still affect retrospective evaluation.
 
@@ -33,16 +35,20 @@ See the [protocol](PROTOCOL.md), [source notes](SOURCES.md), [complete tuning ta
 
 ### Primary results
 
-| Model | Final-test normalized MAE |
+| Model | Retrospective test normalized MAE |
 |---|---:|
-| Ridge, alpha 0.1 | 1.116 |
-| Trailing three-month mean | 1.302 |
-| Last available month | 1.335 |
-| Same month last year | 1.836 |
+| Ridge, alpha 0.1 | 1.121 |
+| Trailing three-month mean | 1.314 |
+| Last available month | 1.348 |
+| Same month last year | 1.852 |
 
 The metric divides absolute error by each product's median count in the initial training period and then averages across product-months. It is not a percentage error. Ridge improves four of six product groups and worsens two. Its lower final-test error does not retroactively change the validation winner.
 
-At a hypothetical 3:1 shortage-to-surplus cost ratio, mean normalized losses were **2.687 for ridge** and **2.697 for the baseline**. Their paired difference was −0.010, with a 95% six-month block-resampling interval of **[−0.550, 0.387]**. These are dimensionless scenarios, not dollars or measured business costs.
+At a hypothetical 3:1 shortage-to-surplus cost ratio, mean normalized losses were **2.709 for ridge** and **2.722 for the baseline**. Their paired difference was −0.012, with a 95% six-month block-resampling interval of **[−0.559, 0.393]**. These are dimensionless scenarios, not dollars or measured business costs.
+
+The metric changes the ranking: raw RMSE is 5,068 complaints for ridge and 5,037 for the trailing mean. Raw MAE is 1,783 and 1,581 complaints, respectively. Ridge is therefore not the best model by every measure. Selection still uses the declared normalized MAE objective. The selected ridge penalties lie at grid boundaries (0.1 in the primary scenario, 100 in the delay sensitivity); the search establishes a finite-grid result, not a global optimum.
+
+Inspect the [model-validation standard](MODEL_VALIDATION_STANDARD.md), [search manifest](results/search_manifest.json), [all fold metrics](results/lag2_fold_metrics.csv), [test metrics](results/lag2_test_metrics.csv), [availability manifest](results/lag2_split_manifest.json) and [independent optimization checks](results/optimization_verification.json).
 
 ![All prespecified validation candidates](figures/tuning-comparison.png)
 
@@ -66,6 +72,7 @@ To regenerate the artifacts in your own working copy instead:
 python src/analyze.py
 python src/verify.py
 python src/verify_intervals.py
+python src/verify_optimization.py
 python src/figures.py
 ```
 
