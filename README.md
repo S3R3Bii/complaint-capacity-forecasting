@@ -69,6 +69,8 @@ python src/verify_intervals.py
 python src/figures.py
 ```
 
+The `.gitattributes` file preserves snapshot and result bytes on every operating system. An initial Linux CI run caught Git's automatic line-ending conversion invalidating the recorded hashes; the original bytes were restored without changing the data values or results.
+
 The retained snapshots make this an offline reproduction. To check the live source separately:
 
 ```bash
