@@ -1,0 +1,62 @@
+{
+  "delay_months": 3,
+  "selected_model": "ridge_a10",
+  "selected_ml_model": "ridge_a10",
+  "selected_baseline": "last_available",
+  "initial_training_rows": 288,
+  "validation_rows": 108,
+  "test_rows": 144,
+  "product_scales": {
+    "Checking or savings account": 2323.5,
+    "Debt collection": 4673.5,
+    "Money transfer, virtual currency, or money service": 874.0,
+    "Mortgage": 2010.5,
+    "Student loan": 465.5,
+    "Vehicle loan or lease": 609.5
+  },
+  "validation_score": 0.3432485802887897,
+  "test_normalized_mae": {
+    "last_available": 1.3704102396311066,
+    "ridge_a10": 1.0136752886586846,
+    "seasonal": 1.8356245480835278,
+    "trailing_mean": 1.3690010818780058
+  },
+  "capacity_comparisons": [
+    {
+      "cost_ratio": 1,
+      "ml_model": "ridge_a10",
+      "baseline": "last_available",
+      "ml_mean_cost": 1.0264709452507426,
+      "baseline_mean_cost": 1.3599729938521925,
+      "paired_difference_ml_minus_baseline": -0.3335020486014499,
+      "block_resampling_interval_95": [
+        -1.1321524515333143,
+        0.13312367273875803
+      ]
+    },
+    {
+      "cost_ratio": 3,
+      "ml_model": "ridge_a10",
+      "baseline": "last_available",
+      "ml_mean_cost": 2.5006243144136544,
+      "baseline_mean_cost": 2.7201561638634453,
+      "paired_difference_ml_minus_baseline": -0.21953184944979154,
+      "block_resampling_interval_95": [
+        -1.011740090131221,
+        0.27451002979060224
+      ]
+    },
+    {
+      "cost_ratio": 9,
+      "ml_model": "ridge_a10",
+      "baseline": "last_available",
+      "ml_mean_cost": 5.948707637846489,
+      "baseline_mean_cost": 6.04925994403644,
+      "paired_difference_ml_minus_baseline": -0.10055230618995126,
+      "block_resampling_interval_95": [
+        -0.9808136298576081,
+        0.5403364583337447
+      ]
+    }
+  ]
+}

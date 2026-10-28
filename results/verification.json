@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-10-28T17:06:11.651490+00:00",
+  "status": "PASS within enumerated checks",
+  "checks": [
+    "All 102 source hashes and exact aggregate totals reconcile",
+    "Lag 2: all source-feature joins, temporal boundaries, model selection, errors, quantiles and capacity losses independently recomputed",
+    "Lag 3: all source-feature joins, temporal boundaries, model selection, errors, quantiles and capacity losses independently recomputed"
+  ],
+  "limitations": [
+    "Final-snapshot data cannot verify historical publication availability.",
+    "Resampling intervals are descriptive uncertainty under a chosen six-month block assumption.",
+    "No production deployment, actual cost saving or causal effect was tested."
+  ],
+  "artifact_sha256": {
+    "results/execution.json": "050f12868b5091682d40d67c9c6d5908201849d4a6220f64c1eacbb35aa80f59",
+    "results/interval_verification.json": "e9c22cd36d2f6eb1bdf81c1e29d54d04748977582caa1f0169ed8ebe99a26e7a",
+    "results/lag2_capacity_policies.csv": "91e99717deb458d9f7d10049a7bea26ffb3c0024c966bbd03d67c973920bc27d",
+    "results/lag2_features.csv": "73fdad8506a2bfc5ff26a8fd6c0b806c2acf5a44dc0f83e7d11a2dc67041d1ea",
+    "results/lag2_summary.json": "35a5a4999159d960056d2097725512650e51f892616900ac509e6236e49e5c92",
+    "results/lag2_test_predictions.csv": "b4956cedd3e6fe12be1043a52e4b2415aebe299e1749c9fd8b036821a304bd26",
+    "results/lag2_tuning.csv": "8ff490a6fd34f892275472bd0923c20773ed224112d5db9e1bf00ba48f2fc699",
+    "results/lag2_validation_predictions.csv": "63586ff4bf3804f478bb9054ba47ca5e893d81cb56306a00ae5850093cb2ef0f",
+    "results/lag3_capacity_policies.csv": "787260e99748bc0437019e39c0816e75b095a4e314ebd381cc3c0285230ec399",
+    "results/lag3_features.csv": "f250f8b8642a65fe0cb164a96192e76373029f6ad889bee4b5b726e775866d9a",
+    "results/lag3_summary.json": "82ec6c39fb743c508cfda8d85b558e3c9d926c793ddc766703af87a8adb2311e",
+    "results/lag3_test_predictions.csv": "6fa4c83041a6cae00d884d6695bb7b423d17d4c0720bd9bfe7e1dff13b51075a",
+    "results/lag3_tuning.csv": "c5334b5f9b3dac4f5f96312bb4eda0d33b49d8fd37b5f8d12eb0e1b4e05797d4",
+    "results/lag3_validation_predictions.csv": "c6889b9801b278ce68e706da1724c5bff276a6781fc05bc65c65fcfca73c657f",
+    "results/product_test_errors.csv": "61d16f837e5361a7a45f993f74e92ea0777023e81213ea71a9163cc9b62d753d",
+    "results/source_reconciliation.json": "68ff176b253884bd280a3165d9a715d3a73c7867d9ee5108c69001950eaf9f44"
+  }
+}

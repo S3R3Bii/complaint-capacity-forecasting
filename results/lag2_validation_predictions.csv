@@ -1,0 +1,1621 @@
+month,product,complaints,scale,prediction,fold,model
+2023-01-01,Checking or savings account,6395,2323.5,2987.0,1,last_available
+2023-01-01,Debt collection,5871,4673.5,4337.0,1,last_available
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1221.0,1,last_available
+2023-01-01,Mortgage,2837,2010.5,1518.0,1,last_available
+2023-01-01,Student loan,580,465.5,609.0,1,last_available
+2023-01-01,Vehicle loan or lease,1505,609.5,803.0,1,last_available
+2023-02-01,Checking or savings account,3944,2323.5,3614.0,1,last_available
+2023-02-01,Debt collection,5250,4673.5,4718.0,1,last_available
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1175.0,1,last_available
+2023-02-01,Mortgage,2165,2010.5,1824.0,1,last_available
+2023-02-01,Student loan,528,465.5,520.0,1,last_available
+2023-02-01,Vehicle loan or lease,1170,609.5,933.0,1,last_available
+2023-03-01,Checking or savings account,4299,2323.5,6395.0,1,last_available
+2023-03-01,Debt collection,6297,4673.5,5871.0,1,last_available
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1269.0,1,last_available
+2023-03-01,Mortgage,2176,2010.5,2837.0,1,last_available
+2023-03-01,Student loan,515,465.5,580.0,1,last_available
+2023-03-01,Vehicle loan or lease,1170,609.5,1505.0,1,last_available
+2023-04-01,Checking or savings account,3477,2323.5,3944.0,1,last_available
+2023-04-01,Debt collection,5514,4673.5,5250.0,1,last_available
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1066.0,1,last_available
+2023-04-01,Mortgage,1658,2010.5,2165.0,1,last_available
+2023-04-01,Student loan,397,465.5,528.0,1,last_available
+2023-04-01,Vehicle loan or lease,955,609.5,1170.0,1,last_available
+2023-05-01,Checking or savings account,4084,2323.5,4299.0,1,last_available
+2023-05-01,Debt collection,5867,4673.5,6297.0,1,last_available
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1135.0,1,last_available
+2023-05-01,Mortgage,1887,2010.5,2176.0,1,last_available
+2023-05-01,Student loan,410,465.5,515.0,1,last_available
+2023-05-01,Vehicle loan or lease,1034,609.5,1170.0,1,last_available
+2023-06-01,Checking or savings account,3883,2323.5,3477.0,1,last_available
+2023-06-01,Debt collection,5599,4673.5,5514.0,1,last_available
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1031.0,1,last_available
+2023-06-01,Mortgage,1703,2010.5,1658.0,1,last_available
+2023-06-01,Student loan,397,465.5,397.0,1,last_available
+2023-06-01,Vehicle loan or lease,929,609.5,955.0,1,last_available
+2023-07-01,Checking or savings account,4279,2323.5,4084.0,2,last_available
+2023-07-01,Debt collection,5414,4673.5,5867.0,2,last_available
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1116.0,2,last_available
+2023-07-01,Mortgage,1633,2010.5,1887.0,2,last_available
+2023-07-01,Student loan,570,465.5,410.0,2,last_available
+2023-07-01,Vehicle loan or lease,907,609.5,1034.0,2,last_available
+2023-08-01,Checking or savings account,4315,2323.5,3883.0,2,last_available
+2023-08-01,Debt collection,5844,4673.5,5599.0,2,last_available
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1158.0,2,last_available
+2023-08-01,Mortgage,1844,2010.5,1703.0,2,last_available
+2023-08-01,Student loan,769,465.5,397.0,2,last_available
+2023-08-01,Vehicle loan or lease,1253,609.5,929.0,2,last_available
+2023-09-01,Checking or savings account,3811,2323.5,4279.0,2,last_available
+2023-09-01,Debt collection,5298,4673.5,5414.0,2,last_available
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1074.0,2,last_available
+2023-09-01,Mortgage,1632,2010.5,1633.0,2,last_available
+2023-09-01,Student loan,1423,465.5,570.0,2,last_available
+2023-09-01,Vehicle loan or lease,946,609.5,907.0,2,last_available
+2023-10-01,Checking or savings account,3795,2323.5,4315.0,2,last_available
+2023-10-01,Debt collection,5450,4673.5,5844.0,2,last_available
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1160.0,2,last_available
+2023-10-01,Mortgage,1721,2010.5,1844.0,2,last_available
+2023-10-01,Student loan,2130,465.5,769.0,2,last_available
+2023-10-01,Vehicle loan or lease,1012,609.5,1253.0,2,last_available
+2023-11-01,Checking or savings account,3770,2323.5,3811.0,2,last_available
+2023-11-01,Debt collection,5566,4673.5,5298.0,2,last_available
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1111.0,2,last_available
+2023-11-01,Mortgage,1818,2010.5,1632.0,2,last_available
+2023-11-01,Student loan,1625,465.5,1423.0,2,last_available
+2023-11-01,Vehicle loan or lease,995,609.5,946.0,2,last_available
+2023-12-01,Checking or savings account,3821,2323.5,3795.0,2,last_available
+2023-12-01,Debt collection,6137,4673.5,5450.0,2,last_available
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1267.0,2,last_available
+2023-12-01,Mortgage,1779,2010.5,1721.0,2,last_available
+2023-12-01,Student loan,1289,465.5,2130.0,2,last_available
+2023-12-01,Vehicle loan or lease,918,609.5,1012.0,2,last_available
+2024-01-01,Checking or savings account,4032,2323.5,3770.0,3,last_available
+2024-01-01,Debt collection,7175,4673.5,5566.0,3,last_available
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1130.0,3,last_available
+2024-01-01,Mortgage,1812,2010.5,1818.0,3,last_available
+2024-01-01,Student loan,1617,465.5,1625.0,3,last_available
+2024-01-01,Vehicle loan or lease,1070,609.5,995.0,3,last_available
+2024-02-01,Checking or savings account,3833,2323.5,3821.0,3,last_available
+2024-02-01,Debt collection,8772,4673.5,6137.0,3,last_available
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1232.0,3,last_available
+2024-02-01,Mortgage,1942,2010.5,1779.0,3,last_available
+2024-02-01,Student loan,1222,465.5,1289.0,3,last_available
+2024-02-01,Vehicle loan or lease,1032,609.5,918.0,3,last_available
+2024-03-01,Checking or savings account,4257,2323.5,4032.0,3,last_available
+2024-03-01,Debt collection,12354,4673.5,7175.0,3,last_available
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1286.0,3,last_available
+2024-03-01,Mortgage,1893,2010.5,1812.0,3,last_available
+2024-03-01,Student loan,1323,465.5,1617.0,3,last_available
+2024-03-01,Vehicle loan or lease,1333,609.5,1070.0,3,last_available
+2024-04-01,Checking or savings account,4327,2323.5,3833.0,3,last_available
+2024-04-01,Debt collection,12912,4673.5,8772.0,3,last_available
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1306.0,3,last_available
+2024-04-01,Mortgage,1817,2010.5,1942.0,3,last_available
+2024-04-01,Student loan,1159,465.5,1222.0,3,last_available
+2024-04-01,Vehicle loan or lease,1094,609.5,1032.0,3,last_available
+2024-05-01,Checking or savings account,4539,2323.5,4257.0,3,last_available
+2024-05-01,Debt collection,12426,4673.5,12354.0,3,last_available
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1457.0,3,last_available
+2024-05-01,Mortgage,1713,2010.5,1893.0,3,last_available
+2024-05-01,Student loan,1260,465.5,1323.0,3,last_available
+2024-05-01,Vehicle loan or lease,1050,609.5,1333.0,3,last_available
+2024-06-01,Checking or savings account,3886,2323.5,4327.0,3,last_available
+2024-06-01,Debt collection,11099,4673.5,12912.0,3,last_available
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1285.0,3,last_available
+2024-06-01,Mortgage,1575,2010.5,1817.0,3,last_available
+2024-06-01,Student loan,987,465.5,1159.0,3,last_available
+2024-06-01,Vehicle loan or lease,946,609.5,1094.0,3,last_available
+2023-01-01,Checking or savings account,6395,2323.5,3092.0,1,trailing_mean
+2023-01-01,Debt collection,5871,4673.5,4526.666666666667,1,trailing_mean
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1174.0,1,trailing_mean
+2023-01-01,Mortgage,2837,2010.5,1641.6666666666667,1,trailing_mean
+2023-01-01,Student loan,580,465.5,1027.6666666666667,1,trailing_mean
+2023-01-01,Vehicle loan or lease,1505,609.5,764.3333333333334,1,trailing_mean
+2023-02-01,Checking or savings account,3944,2323.5,3234.3333333333335,1,trailing_mean
+2023-02-01,Debt collection,5250,4673.5,4594.666666666667,1,trailing_mean
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1165.0,1,trailing_mean
+2023-02-01,Mortgage,2165,2010.5,1655.3333333333333,1,trailing_mean
+2023-02-01,Student loan,528,465.5,827.6666666666666,1,trailing_mean
+2023-02-01,Vehicle loan or lease,1170,609.5,829.0,1,trailing_mean
+2023-03-01,Checking or savings account,4299,2323.5,4332.0,1,trailing_mean
+2023-03-01,Debt collection,6297,4673.5,4975.333333333333,1,trailing_mean
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1221.6666666666667,1,trailing_mean
+2023-03-01,Mortgage,2176,2010.5,2059.6666666666665,1,trailing_mean
+2023-03-01,Student loan,515,465.5,569.6666666666666,1,trailing_mean
+2023-03-01,Vehicle loan or lease,1170,609.5,1080.3333333333333,1,trailing_mean
+2023-04-01,Checking or savings account,3477,2323.5,4651.0,1,trailing_mean
+2023-04-01,Debt collection,5514,4673.5,5279.666666666667,1,trailing_mean
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1170.0,1,trailing_mean
+2023-04-01,Mortgage,1658,2010.5,2275.3333333333335,1,trailing_mean
+2023-04-01,Student loan,397,465.5,542.6666666666666,1,trailing_mean
+2023-04-01,Vehicle loan or lease,955,609.5,1202.6666666666667,1,trailing_mean
+2023-05-01,Checking or savings account,4084,2323.5,4879.333333333333,1,trailing_mean
+2023-05-01,Debt collection,5867,4673.5,5806.0,1,trailing_mean
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1156.6666666666667,1,trailing_mean
+2023-05-01,Mortgage,1887,2010.5,2392.6666666666665,1,trailing_mean
+2023-05-01,Student loan,410,465.5,541.0,1,trailing_mean
+2023-05-01,Vehicle loan or lease,1034,609.5,1281.6666666666667,1,trailing_mean
+2023-06-01,Checking or savings account,3883,2323.5,3906.6666666666665,1,trailing_mean
+2023-06-01,Debt collection,5599,4673.5,5687.0,1,trailing_mean
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1077.3333333333333,1,trailing_mean
+2023-06-01,Mortgage,1703,2010.5,1999.6666666666667,1,trailing_mean
+2023-06-01,Student loan,397,465.5,480.0,1,trailing_mean
+2023-06-01,Vehicle loan or lease,929,609.5,1098.3333333333333,1,trailing_mean
+2023-07-01,Checking or savings account,4279,2323.5,3953.3333333333335,2,trailing_mean
+2023-07-01,Debt collection,5414,4673.5,5892.666666666667,2,trailing_mean
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1094.0,2,trailing_mean
+2023-07-01,Mortgage,1633,2010.5,1907.0,2,trailing_mean
+2023-07-01,Student loan,570,465.5,440.6666666666667,2,trailing_mean
+2023-07-01,Vehicle loan or lease,907,609.5,1053.0,2,trailing_mean
+2023-08-01,Checking or savings account,4315,2323.5,3814.6666666666665,2,trailing_mean
+2023-08-01,Debt collection,5844,4673.5,5660.0,2,trailing_mean
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1101.6666666666667,2,trailing_mean
+2023-08-01,Mortgage,1844,2010.5,1749.3333333333333,2,trailing_mean
+2023-08-01,Student loan,769,465.5,401.3333333333333,2,trailing_mean
+2023-08-01,Vehicle loan or lease,1253,609.5,972.6666666666666,2,trailing_mean
+2023-09-01,Checking or savings account,3811,2323.5,4082.0,2,trailing_mean
+2023-09-01,Debt collection,5298,4673.5,5626.666666666667,2,trailing_mean
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1116.0,2,trailing_mean
+2023-09-01,Mortgage,1632,2010.5,1741.0,2,trailing_mean
+2023-09-01,Student loan,1423,465.5,459.0,2,trailing_mean
+2023-09-01,Vehicle loan or lease,946,609.5,956.6666666666666,2,trailing_mean
+2023-10-01,Checking or savings account,3795,2323.5,4159.0,2,trailing_mean
+2023-10-01,Debt collection,5450,4673.5,5619.0,2,trailing_mean
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1130.6666666666667,2,trailing_mean
+2023-10-01,Mortgage,1721,2010.5,1726.6666666666667,2,trailing_mean
+2023-10-01,Student loan,2130,465.5,578.6666666666666,2,trailing_mean
+2023-10-01,Vehicle loan or lease,1012,609.5,1029.6666666666667,2,trailing_mean
+2023-11-01,Checking or savings account,3770,2323.5,4135.0,2,trailing_mean
+2023-11-01,Debt collection,5566,4673.5,5518.666666666667,2,trailing_mean
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1115.0,2,trailing_mean
+2023-11-01,Mortgage,1818,2010.5,1703.0,2,trailing_mean
+2023-11-01,Student loan,1625,465.5,920.6666666666666,2,trailing_mean
+2023-11-01,Vehicle loan or lease,995,609.5,1035.3333333333333,2,trailing_mean
+2023-12-01,Checking or savings account,3821,2323.5,3973.6666666666665,2,trailing_mean
+2023-12-01,Debt collection,6137,4673.5,5530.666666666667,2,trailing_mean
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1179.3333333333333,2,trailing_mean
+2023-12-01,Mortgage,1779,2010.5,1732.3333333333333,2,trailing_mean
+2023-12-01,Student loan,1289,465.5,1440.6666666666667,2,trailing_mean
+2023-12-01,Vehicle loan or lease,918,609.5,1070.3333333333333,2,trailing_mean
+2024-01-01,Checking or savings account,4032,2323.5,3792.0,3,trailing_mean
+2024-01-01,Debt collection,7175,4673.5,5438.0,3,trailing_mean
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1169.3333333333333,3,trailing_mean
+2024-01-01,Mortgage,1812,2010.5,1723.6666666666667,3,trailing_mean
+2024-01-01,Student loan,1617,465.5,1726.0,3,trailing_mean
+2024-01-01,Vehicle loan or lease,1070,609.5,984.3333333333334,3,trailing_mean
+2024-02-01,Checking or savings account,3833,2323.5,3795.3333333333335,3,trailing_mean
+2024-02-01,Debt collection,8772,4673.5,5717.666666666667,3,trailing_mean
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1209.6666666666667,3,trailing_mean
+2024-02-01,Mortgage,1942,2010.5,1772.6666666666667,3,trailing_mean
+2024-02-01,Student loan,1222,465.5,1681.3333333333333,3,trailing_mean
+2024-02-01,Vehicle loan or lease,1032,609.5,975.0,3,trailing_mean
+2024-03-01,Checking or savings account,4257,2323.5,3874.3333333333335,3,trailing_mean
+2024-03-01,Debt collection,12354,4673.5,6292.666666666667,3,trailing_mean
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1216.0,3,trailing_mean
+2024-03-01,Mortgage,1893,2010.5,1803.0,3,trailing_mean
+2024-03-01,Student loan,1323,465.5,1510.3333333333333,3,trailing_mean
+2024-03-01,Vehicle loan or lease,1333,609.5,994.3333333333334,3,trailing_mean
+2024-04-01,Checking or savings account,4327,2323.5,3895.3333333333335,3,trailing_mean
+2024-04-01,Debt collection,12912,4673.5,7361.333333333333,3,trailing_mean
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1274.6666666666667,3,trailing_mean
+2024-04-01,Mortgage,1817,2010.5,1844.3333333333333,3,trailing_mean
+2024-04-01,Student loan,1159,465.5,1376.0,3,trailing_mean
+2024-04-01,Vehicle loan or lease,1094,609.5,1006.6666666666666,3,trailing_mean
+2024-05-01,Checking or savings account,4539,2323.5,4040.6666666666665,3,trailing_mean
+2024-05-01,Debt collection,12426,4673.5,9433.666666666666,3,trailing_mean
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1349.6666666666667,3,trailing_mean
+2024-05-01,Mortgage,1713,2010.5,1882.3333333333333,3,trailing_mean
+2024-05-01,Student loan,1260,465.5,1387.3333333333333,3,trailing_mean
+2024-05-01,Vehicle loan or lease,1050,609.5,1145.0,3,trailing_mean
+2024-06-01,Checking or savings account,3886,2323.5,4139.0,3,trailing_mean
+2024-06-01,Debt collection,11099,4673.5,11346.0,3,trailing_mean
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1349.3333333333333,3,trailing_mean
+2024-06-01,Mortgage,1575,2010.5,1884.0,3,trailing_mean
+2024-06-01,Student loan,987,465.5,1234.6666666666667,3,trailing_mean
+2024-06-01,Vehicle loan or lease,946,609.5,1153.0,3,trailing_mean
+2023-01-01,Checking or savings account,6395,2323.5,2960.0,1,seasonal
+2023-01-01,Debt collection,5871,4673.5,5072.0,1,seasonal
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1019.0,1,seasonal
+2023-01-01,Mortgage,2837,2010.5,2212.0,1,seasonal
+2023-01-01,Student loan,580,465.5,568.0,1,seasonal
+2023-01-01,Vehicle loan or lease,1505,609.5,698.0,1,seasonal
+2023-02-01,Checking or savings account,3944,2323.5,3003.0,1,seasonal
+2023-02-01,Debt collection,5250,4673.5,5509.0,1,seasonal
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,883.0,1,seasonal
+2023-02-01,Mortgage,2165,2010.5,2213.0,1,seasonal
+2023-02-01,Student loan,528,465.5,602.0,1,seasonal
+2023-02-01,Vehicle loan or lease,1170,609.5,741.0,1,seasonal
+2023-03-01,Checking or savings account,4299,2323.5,3357.0,1,seasonal
+2023-03-01,Debt collection,6297,4673.5,6108.0,1,seasonal
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1110.0,1,seasonal
+2023-03-01,Mortgage,2176,2010.5,2505.0,1,seasonal
+2023-03-01,Student loan,515,465.5,658.0,1,seasonal
+2023-03-01,Vehicle loan or lease,1170,609.5,701.0,1,seasonal
+2023-04-01,Checking or savings account,3477,2323.5,3236.0,1,seasonal
+2023-04-01,Debt collection,5514,4673.5,6007.0,1,seasonal
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1178.0,1,seasonal
+2023-04-01,Mortgage,1658,2010.5,2274.0,1,seasonal
+2023-04-01,Student loan,397,465.5,615.0,1,seasonal
+2023-04-01,Vehicle loan or lease,955,609.5,764.0,1,seasonal
+2023-05-01,Checking or savings account,4084,2323.5,2841.0,1,seasonal
+2023-05-01,Debt collection,5867,4673.5,4567.0,1,seasonal
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1152.0,1,seasonal
+2023-05-01,Mortgage,1887,2010.5,1793.0,1,seasonal
+2023-05-01,Student loan,410,465.5,413.0,1,seasonal
+2023-05-01,Vehicle loan or lease,1034,609.5,593.0,1,seasonal
+2023-06-01,Checking or savings account,3883,2323.5,2808.0,1,seasonal
+2023-06-01,Debt collection,5599,4673.5,4539.0,1,seasonal
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1003.0,1,seasonal
+2023-06-01,Mortgage,1703,2010.5,1793.0,1,seasonal
+2023-06-01,Student loan,397,465.5,430.0,1,seasonal
+2023-06-01,Vehicle loan or lease,929,609.5,571.0,1,seasonal
+2023-07-01,Checking or savings account,4279,2323.5,3056.0,2,seasonal
+2023-07-01,Debt collection,5414,4673.5,4377.0,2,seasonal
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1192.0,2,seasonal
+2023-07-01,Mortgage,1633,2010.5,1720.0,2,seasonal
+2023-07-01,Student loan,570,465.5,462.0,2,seasonal
+2023-07-01,Vehicle loan or lease,907,609.5,589.0,2,seasonal
+2023-08-01,Checking or savings account,4315,2323.5,3431.0,2,seasonal
+2023-08-01,Debt collection,5844,4673.5,4961.0,2,seasonal
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1300.0,2,seasonal
+2023-08-01,Mortgage,1844,2010.5,2019.0,2,seasonal
+2023-08-01,Student loan,769,465.5,601.0,2,seasonal
+2023-08-01,Vehicle loan or lease,1253,609.5,756.0,2,seasonal
+2023-09-01,Checking or savings account,3811,2323.5,3187.0,2,seasonal
+2023-09-01,Debt collection,5298,4673.5,4514.0,2,seasonal
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1202.0,2,seasonal
+2023-09-01,Mortgage,1632,2010.5,1783.0,2,seasonal
+2023-09-01,Student loan,1423,465.5,1120.0,2,seasonal
+2023-09-01,Vehicle loan or lease,946,609.5,739.0,2,seasonal
+2023-10-01,Checking or savings account,3795,2323.5,3102.0,2,seasonal
+2023-10-01,Debt collection,5450,4673.5,4729.0,2,seasonal
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1099.0,2,seasonal
+2023-10-01,Mortgage,1721,2010.5,1624.0,2,seasonal
+2023-10-01,Student loan,2130,465.5,1354.0,2,seasonal
+2023-10-01,Vehicle loan or lease,1012,609.5,751.0,2,seasonal
+2023-11-01,Checking or savings account,3770,2323.5,2987.0,2,seasonal
+2023-11-01,Debt collection,5566,4673.5,4337.0,2,seasonal
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1221.0,2,seasonal
+2023-11-01,Mortgage,1818,2010.5,1518.0,2,seasonal
+2023-11-01,Student loan,1625,465.5,609.0,2,seasonal
+2023-11-01,Vehicle loan or lease,995,609.5,803.0,2,seasonal
+2023-12-01,Checking or savings account,3821,2323.5,3614.0,2,seasonal
+2023-12-01,Debt collection,6137,4673.5,4718.0,2,seasonal
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1175.0,2,seasonal
+2023-12-01,Mortgage,1779,2010.5,1824.0,2,seasonal
+2023-12-01,Student loan,1289,465.5,520.0,2,seasonal
+2023-12-01,Vehicle loan or lease,918,609.5,933.0,2,seasonal
+2024-01-01,Checking or savings account,4032,2323.5,6395.0,3,seasonal
+2024-01-01,Debt collection,7175,4673.5,5871.0,3,seasonal
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1269.0,3,seasonal
+2024-01-01,Mortgage,1812,2010.5,2837.0,3,seasonal
+2024-01-01,Student loan,1617,465.5,580.0,3,seasonal
+2024-01-01,Vehicle loan or lease,1070,609.5,1505.0,3,seasonal
+2024-02-01,Checking or savings account,3833,2323.5,3944.0,3,seasonal
+2024-02-01,Debt collection,8772,4673.5,5250.0,3,seasonal
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1066.0,3,seasonal
+2024-02-01,Mortgage,1942,2010.5,2165.0,3,seasonal
+2024-02-01,Student loan,1222,465.5,528.0,3,seasonal
+2024-02-01,Vehicle loan or lease,1032,609.5,1170.0,3,seasonal
+2024-03-01,Checking or savings account,4257,2323.5,4299.0,3,seasonal
+2024-03-01,Debt collection,12354,4673.5,6297.0,3,seasonal
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1135.0,3,seasonal
+2024-03-01,Mortgage,1893,2010.5,2176.0,3,seasonal
+2024-03-01,Student loan,1323,465.5,515.0,3,seasonal
+2024-03-01,Vehicle loan or lease,1333,609.5,1170.0,3,seasonal
+2024-04-01,Checking or savings account,4327,2323.5,3477.0,3,seasonal
+2024-04-01,Debt collection,12912,4673.5,5514.0,3,seasonal
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1031.0,3,seasonal
+2024-04-01,Mortgage,1817,2010.5,1658.0,3,seasonal
+2024-04-01,Student loan,1159,465.5,397.0,3,seasonal
+2024-04-01,Vehicle loan or lease,1094,609.5,955.0,3,seasonal
+2024-05-01,Checking or savings account,4539,2323.5,4084.0,3,seasonal
+2024-05-01,Debt collection,12426,4673.5,5867.0,3,seasonal
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1116.0,3,seasonal
+2024-05-01,Mortgage,1713,2010.5,1887.0,3,seasonal
+2024-05-01,Student loan,1260,465.5,410.0,3,seasonal
+2024-05-01,Vehicle loan or lease,1050,609.5,1034.0,3,seasonal
+2024-06-01,Checking or savings account,3886,2323.5,3883.0,3,seasonal
+2024-06-01,Debt collection,11099,4673.5,5599.0,3,seasonal
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1158.0,3,seasonal
+2024-06-01,Mortgage,1575,2010.5,1703.0,3,seasonal
+2024-06-01,Student loan,987,465.5,397.0,3,seasonal
+2024-06-01,Vehicle loan or lease,946,609.5,929.0,3,seasonal
+2023-01-01,Checking or savings account,6395,2323.5,3183.1901037896077,1,ridge_a0.1
+2023-01-01,Debt collection,5871,4673.5,5075.496323721396,1,ridge_a0.1
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1244.771070854687,1,ridge_a0.1
+2023-01-01,Mortgage,2837,2010.5,1903.2575953533499,1,ridge_a0.1
+2023-01-01,Student loan,580,465.5,617.4291640893701,1,ridge_a0.1
+2023-01-01,Vehicle loan or lease,1505,609.5,832.7013496796326,1,ridge_a0.1
+2023-02-01,Checking or savings account,3944,2323.5,3669.9764162018723,1,ridge_a0.1
+2023-02-01,Debt collection,5250,4673.5,5534.60638178279,1,ridge_a0.1
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1220.9204286651932,1,ridge_a0.1
+2023-02-01,Mortgage,2165,2010.5,2179.6027836137987,1,ridge_a0.1
+2023-02-01,Student loan,528,465.5,591.3285938441401,1,ridge_a0.1
+2023-02-01,Vehicle loan or lease,1170,609.5,939.1662289255477,1,ridge_a0.1
+2023-03-01,Checking or savings account,4299,2323.5,5313.186632335266,1,ridge_a0.1
+2023-03-01,Debt collection,6297,4673.5,6452.617209180665,1,ridge_a0.1
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1331.4547079029878,1,ridge_a0.1
+2023-03-01,Mortgage,2176,2010.5,2915.863488195196,1,ridge_a0.1
+2023-03-01,Student loan,515,465.5,634.6749258871852,1,ridge_a0.1
+2023-03-01,Vehicle loan or lease,1170,609.5,1268.784448065731,1,ridge_a0.1
+2023-04-01,Checking or savings account,3477,2323.5,3897.9900324648384,1,ridge_a0.1
+2023-04-01,Debt collection,5514,4673.5,5998.745153158755,1,ridge_a0.1
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1199.9177689383823,1,ridge_a0.1
+2023-04-01,Mortgage,1658,2010.5,2432.6763384391998,1,ridge_a0.1
+2023-04-01,Student loan,397,465.5,591.2578239112864,1,ridge_a0.1
+2023-04-01,Vehicle loan or lease,955,609.5,1087.6974316531291,1,ridge_a0.1
+2023-05-01,Checking or savings account,4084,2323.5,4128.991272132009,1,ridge_a0.1
+2023-05-01,Debt collection,5867,4673.5,6521.346270751746,1,ridge_a0.1
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1238.8795354477463,1,ridge_a0.1
+2023-05-01,Mortgage,1887,2010.5,2404.30331850823,1,ridge_a0.1
+2023-05-01,Student loan,410,465.5,557.150257140563,1,ridge_a0.1
+2023-05-01,Vehicle loan or lease,1034,609.5,1070.63889607951,1,ridge_a0.1
+2023-06-01,Checking or savings account,3883,2323.5,3495.738535898222,1,ridge_a0.1
+2023-06-01,Debt collection,5599,4673.5,5847.997603821119,1,ridge_a0.1
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1123.3298005954375,1,ridge_a0.1
+2023-06-01,Mortgage,1703,2010.5,1980.032519714393,1,ridge_a0.1
+2023-06-01,Student loan,397,465.5,466.5851232147565,1,ridge_a0.1
+2023-06-01,Vehicle loan or lease,929,609.5,917.145574068265,1,ridge_a0.1
+2023-07-01,Checking or savings account,4279,2323.5,3819.5782969372367,2,ridge_a0.1
+2023-07-01,Debt collection,5414,4673.5,5819.107040868754,2,ridge_a0.1
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1154.982126266518,2,ridge_a0.1
+2023-07-01,Mortgage,1633,2010.5,2039.4720692472895,2,ridge_a0.1
+2023-07-01,Student loan,570,465.5,452.8276635821028,2,ridge_a0.1
+2023-07-01,Vehicle loan or lease,907,609.5,938.0806200331692,2,ridge_a0.1
+2023-08-01,Checking or savings account,4315,2323.5,3662.9620868439847,2,ridge_a0.1
+2023-08-01,Debt collection,5844,4673.5,5652.4541258125955,2,ridge_a0.1
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1177.4899480676904,2,ridge_a0.1
+2023-08-01,Mortgage,1844,2010.5,1901.9901194135646,2,ridge_a0.1
+2023-08-01,Student loan,769,465.5,449.6380594997645,2,ridge_a0.1
+2023-08-01,Vehicle loan or lease,1253,609.5,886.8598550298723,2,ridge_a0.1
+2023-09-01,Checking or savings account,3811,2323.5,3914.958375008504,2,ridge_a0.1
+2023-09-01,Debt collection,5298,4673.5,5528.677301071364,2,ridge_a0.1
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1119.1471273120555,2,ridge_a0.1
+2023-09-01,Mortgage,1632,2010.5,1855.5728778445368,2,ridge_a0.1
+2023-09-01,Student loan,1423,465.5,612.0020855979392,2,ridge_a0.1
+2023-09-01,Vehicle loan or lease,946,609.5,884.0355166755963,2,ridge_a0.1
+2023-10-01,Checking or savings account,3795,2323.5,3947.0904884411375,2,ridge_a0.1
+2023-10-01,Debt collection,5450,4673.5,5916.027861311805,2,ridge_a0.1
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1186.0033747271953,2,ridge_a0.1
+2023-10-01,Mortgage,1721,2010.5,2005.3735736404926,2,ridge_a0.1
+2023-10-01,Student loan,2130,465.5,748.0697588537341,2,ridge_a0.1
+2023-10-01,Vehicle loan or lease,1012,609.5,1096.844559873372,2,ridge_a0.1
+2023-11-01,Checking or savings account,3770,2323.5,3724.4463606526556,2,ridge_a0.1
+2023-11-01,Debt collection,5566,4673.5,5588.03488318169,2,ridge_a0.1
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1184.0244829786411,2,ridge_a0.1
+2023-11-01,Mortgage,1818,2010.5,1864.2658015476586,2,ridge_a0.1
+2023-11-01,Student loan,1625,465.5,1018.458784064935,2,ridge_a0.1
+2023-11-01,Vehicle loan or lease,995,609.5,926.9108924405397,2,ridge_a0.1
+2023-12-01,Checking or savings account,3821,2323.5,3917.4516197938437,2,ridge_a0.1
+2023-12-01,Debt collection,6137,4673.5,5930.66593377697,2,ridge_a0.1
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1316.7978775005254,2,ridge_a0.1
+2023-12-01,Mortgage,1779,2010.5,2040.1676103448558,2,ridge_a0.1
+2023-12-01,Student loan,1289,465.5,1283.5601848328388,2,ridge_a0.1
+2023-12-01,Vehicle loan or lease,918,609.5,1038.1051077631205,2,ridge_a0.1
+2024-01-01,Checking or savings account,4032,2323.5,4590.290207747869,3,ridge_a0.1
+2024-01-01,Debt collection,7175,4673.5,6405.394735201605,3,ridge_a0.1
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1293.4019070596505,3,ridge_a0.1
+2024-01-01,Mortgage,1812,2010.5,2365.221877143431,3,ridge_a0.1
+2024-01-01,Student loan,1617,465.5,1110.5115509333032,3,ridge_a0.1
+2024-01-01,Vehicle loan or lease,1070,609.5,1177.0096585842314,3,ridge_a0.1
+2024-02-01,Checking or savings account,3833,2323.5,4200.468125992674,3,ridge_a0.1
+2024-02-01,Debt collection,8772,4673.5,6686.845610223486,3,ridge_a0.1
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1328.4805933510272,3,ridge_a0.1
+2024-02-01,Mortgage,1942,2010.5,2191.421699100715,3,ridge_a0.1
+2024-02-01,Student loan,1222,465.5,930.0543343452082,3,ridge_a0.1
+2024-02-01,Vehicle loan or lease,1032,609.5,1057.1482907412865,3,ridge_a0.1
+2024-03-01,Checking or savings account,4257,2323.5,4426.458979435293,3,ridge_a0.1
+2024-03-01,Debt collection,12354,4673.5,7643.295218231983,3,ridge_a0.1
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1383.9279267602967,3,ridge_a0.1
+2024-03-01,Mortgage,1893,2010.5,2213.624513437941,3,ridge_a0.1
+2024-03-01,Student loan,1323,465.5,1118.1699536538003,3,ridge_a0.1
+2024-03-01,Vehicle loan or lease,1333,609.5,1180.512297612451,3,ridge_a0.1
+2024-04-01,Checking or savings account,4327,2323.5,4042.6463643842267,3,ridge_a0.1
+2024-04-01,Debt collection,12912,4673.5,8308.76666841821,3,ridge_a0.1
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1349.899100395068,3,ridge_a0.1
+2024-04-01,Mortgage,1817,2010.5,2177.4528766847448,3,ridge_a0.1
+2024-04-01,Student loan,1159,465.5,865.7911900950033,3,ridge_a0.1
+2024-04-01,Vehicle loan or lease,1094,609.5,1088.486328955342,3,ridge_a0.1
+2024-05-01,Checking or savings account,4539,2323.5,4463.2627252062375,3,ridge_a0.1
+2024-05-01,Debt collection,12426,4673.5,10272.214533041551,3,ridge_a0.1
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1462.1695062884326,3,ridge_a0.1
+2024-05-01,Mortgage,1713,2010.5,2168.101676416158,3,ridge_a0.1
+2024-05-01,Student loan,1260,465.5,921.4842895942106,3,ridge_a0.1
+2024-05-01,Vehicle loan or lease,1050,609.5,1299.1587053687065,3,ridge_a0.1
+2024-06-01,Checking or savings account,3886,2323.5,4414.585562439979,3,ridge_a0.1
+2024-06-01,Debt collection,11099,4673.5,9995.816984420675,3,ridge_a0.1
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1331.3481134308588,3,ridge_a0.1
+2024-06-01,Mortgage,1575,2010.5,2046.1995673034244,3,ridge_a0.1
+2024-06-01,Student loan,987,465.5,840.977375126913,3,ridge_a0.1
+2024-06-01,Vehicle loan or lease,946,609.5,1082.7583648740704,3,ridge_a0.1
+2023-01-01,Checking or savings account,6395,2323.5,3215.2375710251513,1,ridge_a1
+2023-01-01,Debt collection,5871,4673.5,5042.227546549379,1,ridge_a1
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1262.9392736987854,1,ridge_a1
+2023-01-01,Mortgage,2837,2010.5,1885.010202745639,1,ridge_a1
+2023-01-01,Student loan,580,465.5,663.7795910450037,1,ridge_a1
+2023-01-01,Vehicle loan or lease,1505,609.5,837.5004384019587,1,ridge_a1
+2023-02-01,Checking or savings account,3944,2323.5,3662.3290347854168,1,ridge_a1
+2023-02-01,Debt collection,5250,4673.5,5456.740416355192,1,ridge_a1
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1244.9102142929519,1,ridge_a1
+2023-02-01,Mortgage,2165,2010.5,2126.5382192502893,1,ridge_a1
+2023-02-01,Student loan,528,465.5,610.9665089002596,1,ridge_a1
+2023-02-01,Vehicle loan or lease,1170,609.5,942.8589205966713,1,ridge_a1
+2023-03-01,Checking or savings account,4299,2323.5,5220.934677652325,1,ridge_a1
+2023-03-01,Debt collection,6297,4673.5,6325.954300107059,1,ridge_a1
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1355.9112309370807,1,ridge_a1
+2023-03-01,Mortgage,2176,2010.5,2817.3908887394064,1,ridge_a1
+2023-03-01,Student loan,515,465.5,637.688798281913,1,ridge_a1
+2023-03-01,Vehicle loan or lease,1170,609.5,1255.4840307028917,1,ridge_a1
+2023-04-01,Checking or savings account,3477,2323.5,4078.336612850426,1,ridge_a1
+2023-04-01,Debt collection,5514,4673.5,5999.230833828501,1,ridge_a1
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1238.0483608559346,1,ridge_a1
+2023-04-01,Mortgage,1658,2010.5,2452.8466855883635,1,ridge_a1
+2023-04-01,Student loan,397,465.5,598.2728630960182,1,ridge_a1
+2023-04-01,Vehicle loan or lease,955,609.5,1127.5561392922916,1,ridge_a1
+2023-05-01,Checking or savings account,4084,2323.5,4193.688817260999,1,ridge_a1
+2023-05-01,Debt collection,5867,4673.5,6401.669969452471,1,ridge_a1
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1259.3845310317633,1,ridge_a1
+2023-05-01,Mortgage,1887,2010.5,2386.388429151693,1,ridge_a1
+2023-05-01,Student loan,410,465.5,557.6068261407422,1,ridge_a1
+2023-05-01,Vehicle loan or lease,1034,609.5,1094.5103102379821,1,ridge_a1
+2023-06-01,Checking or savings account,3883,2323.5,3573.8943627045533,1,ridge_a1
+2023-06-01,Debt collection,5599,4673.5,5827.67059344246,1,ridge_a1
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1144.4951354678694,1,ridge_a1
+2023-06-01,Mortgage,1703,2010.5,1981.0864061236302,1,ridge_a1
+2023-06-01,Student loan,397,465.5,471.22415334945555,1,ridge_a1
+2023-06-01,Vehicle loan or lease,929,609.5,941.2809182652466,1,ridge_a1
+2023-07-01,Checking or savings account,4279,2323.5,3811.363740753573,2,ridge_a1
+2023-07-01,Debt collection,5414,4673.5,5734.338613422096,2,ridge_a1
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1163.3411275203432,2,ridge_a1
+2023-07-01,Mortgage,1633,2010.5,1991.8826618396652,2,ridge_a1
+2023-07-01,Student loan,570,465.5,447.5966058940107,2,ridge_a1
+2023-07-01,Vehicle loan or lease,907,609.5,939.9502944768257,2,ridge_a1
+2023-08-01,Checking or savings account,4315,2323.5,3694.673895991865,2,ridge_a1
+2023-08-01,Debt collection,5844,4673.5,5604.38089398194,2,ridge_a1
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1190.1052021805094,2,ridge_a1
+2023-08-01,Mortgage,1844,2010.5,1878.860228191825,2,ridge_a1
+2023-08-01,Student loan,769,465.5,446.8328483446379,2,ridge_a1
+2023-08-01,Vehicle loan or lease,1253,609.5,898.5047283102703,2,ridge_a1
+2023-09-01,Checking or savings account,3811,2323.5,3924.012434192489,2,ridge_a1
+2023-09-01,Debt collection,5298,4673.5,5469.18006364933,2,ridge_a1
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1136.0087197714186,2,ridge_a1
+2023-09-01,Mortgage,1632,2010.5,1823.9730507579086,2,ridge_a1
+2023-09-01,Student loan,1423,465.5,605.7351889395145,2,ridge_a1
+2023-09-01,Vehicle loan or lease,946,609.5,891.6498153536957,2,ridge_a1
+2023-10-01,Checking or savings account,3795,2323.5,3973.226636131423,2,ridge_a1
+2023-10-01,Debt collection,5450,4673.5,5828.724003605618,2,ridge_a1
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1194.1925161857296,2,ridge_a1
+2023-10-01,Mortgage,1721,2010.5,1953.0743720113483,2,ridge_a1
+2023-10-01,Student loan,2130,465.5,748.9191079048958,2,ridge_a1
+2023-10-01,Vehicle loan or lease,1012,609.5,1090.7759235208807,2,ridge_a1
+2023-11-01,Checking or savings account,3770,2323.5,3770.3561779142883,2,ridge_a1
+2023-11-01,Debt collection,5566,4673.5,5540.496681637265,2,ridge_a1
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1200.991196485745,2,ridge_a1
+2023-11-01,Mortgage,1818,2010.5,1833.8267211410548,2,ridge_a1
+2023-11-01,Student loan,1625,465.5,1000.7335114587078,2,ridge_a1
+2023-11-01,Vehicle loan or lease,995,609.5,949.4744782727398,2,ridge_a1
+2023-12-01,Checking or savings account,3821,2323.5,3953.9209690346993,2,ridge_a1
+2023-12-01,Debt collection,6137,4673.5,5855.753376113109,2,ridge_a1
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1325.8290151630265,2,ridge_a1
+2023-12-01,Mortgage,1779,2010.5,1998.3606832766916,2,ridge_a1
+2023-12-01,Student loan,1289,465.5,1283.4374464536495,2,ridge_a1
+2023-12-01,Vehicle loan or lease,918,609.5,1050.3960494797548,2,ridge_a1
+2024-01-01,Checking or savings account,4032,2323.5,4644.484294225736,3,ridge_a1
+2024-01-01,Debt collection,7175,4673.5,6358.573108168947,3,ridge_a1
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1312.7607271457407,3,ridge_a1
+2024-01-01,Mortgage,1812,2010.5,2339.080372719746,3,ridge_a1
+2024-01-01,Student loan,1617,465.5,1151.3259941345466,3,ridge_a1
+2024-01-01,Vehicle loan or lease,1070,609.5,1195.1291307009124,3,ridge_a1
+2024-02-01,Checking or savings account,3833,2323.5,4222.977978652639,3,ridge_a1
+2024-02-01,Debt collection,8772,4673.5,6610.867407484846,3,ridge_a1
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1335.650258835427,3,ridge_a1
+2024-02-01,Mortgage,1942,2010.5,2169.9903436101836,3,ridge_a1
+2024-02-01,Student loan,1222,465.5,965.3662468859558,3,ridge_a1
+2024-02-01,Vehicle loan or lease,1032,609.5,1074.116628948583,3,ridge_a1
+2024-03-01,Checking or savings account,4257,2323.5,4444.611772596824,3,ridge_a1
+2024-03-01,Debt collection,12354,4673.5,7556.524289889391,3,ridge_a1
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1392.7541235920462,3,ridge_a1
+2024-03-01,Mortgage,1893,2010.5,2188.770413832073,3,ridge_a1
+2024-03-01,Student loan,1323,465.5,1131.0531105101,3,ridge_a1
+2024-03-01,Vehicle loan or lease,1333,609.5,1186.097434861083,3,ridge_a1
+2024-04-01,Checking or savings account,4327,2323.5,4067.35097712336,3,ridge_a1
+2024-04-01,Debt collection,12912,4673.5,8202.143591118265,3,ridge_a1
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1359.8603975641663,3,ridge_a1
+2024-04-01,Mortgage,1817,2010.5,2140.1306991390065,3,ridge_a1
+2024-04-01,Student loan,1159,465.5,890.0418949747502,3,ridge_a1
+2024-04-01,Vehicle loan or lease,1094,609.5,1099.140629341715,3,ridge_a1
+2024-05-01,Checking or savings account,4539,2323.5,4467.07751958105,3,ridge_a1
+2024-05-01,Debt collection,12426,4673.5,10115.780101973422,3,ridge_a1
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1468.2410910476547,3,ridge_a1
+2024-05-01,Mortgage,1713,2010.5,2142.394731842485,3,ridge_a1
+2024-05-01,Student loan,1260,465.5,933.7887292954972,3,ridge_a1
+2024-05-01,Vehicle loan or lease,1050,609.5,1298.3715493368795,3,ridge_a1
+2024-06-01,Checking or savings account,3886,2323.5,4429.008028593154,3,ridge_a1
+2024-06-01,Debt collection,11099,4673.5,10009.506311985262,3,ridge_a1
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1351.0795099901716,3,ridge_a1
+2024-06-01,Mortgage,1575,2010.5,2021.0974600591624,3,ridge_a1
+2024-06-01,Student loan,987,465.5,855.8554102506421,3,ridge_a1
+2024-06-01,Vehicle loan or lease,946,609.5,1102.3588089142074,3,ridge_a1
+2023-01-01,Checking or savings account,6395,2323.5,3287.181088436942,1,ridge_a10
+2023-01-01,Debt collection,5871,4673.5,4946.855689470223,1,ridge_a10
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1303.1042056692966,1,ridge_a10
+2023-01-01,Mortgage,2837,2010.5,1868.0113801649293,1,ridge_a10
+2023-01-01,Student loan,580,465.5,818.9258580100984,1,ridge_a10
+2023-01-01,Vehicle loan or lease,1505,609.5,848.2065767597857,1,ridge_a10
+2023-02-01,Checking or savings account,3944,2323.5,3595.9196049667944,1,ridge_a10
+2023-02-01,Debt collection,5250,4673.5,5257.4296471386915,1,ridge_a10
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1294.6849060806642,1,ridge_a10
+2023-02-01,Mortgage,2165,2010.5,2003.4766508202194,1,ridge_a10
+2023-02-01,Student loan,528,465.5,706.0402704654464,1,ridge_a10
+2023-02-01,Vehicle loan or lease,1170,609.5,943.831700895897,1,ridge_a10
+2023-03-01,Checking or savings account,4299,2323.5,4766.014632825087,1,ridge_a10
+2023-03-01,Debt collection,6297,4673.5,5913.32619304111,1,ridge_a10
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1412.6570671181737,1,ridge_a10
+2023-03-01,Mortgage,2176,2010.5,2517.328808570453,1,ridge_a10
+2023-03-01,Student loan,515,465.5,656.796589105059,1,ridge_a10
+2023-03-01,Vehicle loan or lease,1170,609.5,1183.6437576037642,1,ridge_a10
+2023-04-01,Checking or savings account,3477,2323.5,4479.98192795974,1,ridge_a10
+2023-04-01,Debt collection,5514,4673.5,5943.31401105894,1,ridge_a10
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1343.2163348302845,1,ridge_a10
+2023-04-01,Mortgage,1658,2010.5,2482.595863616533,1,ridge_a10
+2023-04-01,Student loan,397,465.5,624.423357156517,1,ridge_a10
+2023-04-01,Vehicle loan or lease,955,609.5,1213.0962314111719,1,ridge_a10
+2023-05-01,Checking or savings account,4084,2323.5,4430.9275966055,1,ridge_a10
+2023-05-01,Debt collection,5867,4673.5,6075.760590281574,1,ridge_a10
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1322.8914519678624,1,ridge_a10
+2023-05-01,Mortgage,1887,2010.5,2388.987129907258,1,ridge_a10
+2023-05-01,Student loan,410,465.5,570.6689456414247,1,ridge_a10
+2023-05-01,Vehicle loan or lease,1034,609.5,1172.1430037523505,1,ridge_a10
+2023-06-01,Checking or savings account,3883,2323.5,3777.915327201455,1,ridge_a10
+2023-06-01,Debt collection,5599,4673.5,5734.791917547243,1,ridge_a10
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1202.2551788031094,1,ridge_a10
+2023-06-01,Mortgage,1703,2010.5,2024.304996300092,1,ridge_a10
+2023-06-01,Student loan,397,465.5,498.42004505205443,1,ridge_a10
+2023-06-01,Vehicle loan or lease,929,609.5,1015.553599836209,1,ridge_a10
+2023-07-01,Checking or savings account,4279,2323.5,3773.366044961243,2,ridge_a10
+2023-07-01,Debt collection,5414,4673.5,5506.355897273178,2,ridge_a10
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1185.7141814240163,2,ridge_a10
+2023-07-01,Mortgage,1633,2010.5,1887.0237812435741,2,ridge_a10
+2023-07-01,Student loan,570,465.5,444.6061201980505,2,ridge_a10
+2023-07-01,Vehicle loan or lease,907,609.5,952.682070982865,2,ridge_a10
+2023-08-01,Checking or savings account,4315,2323.5,3741.0898495929096,2,ridge_a10
+2023-08-01,Debt collection,5844,4673.5,5448.822179751311,2,ridge_a10
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1214.8982070728548,2,ridge_a10
+2023-08-01,Mortgage,1844,2010.5,1823.642285447046,2,ridge_a10
+2023-08-01,Student loan,769,465.5,444.96963149426534,2,ridge_a10
+2023-08-01,Vehicle loan or lease,1253,609.5,935.0725727756173,2,ridge_a10
+2023-09-01,Checking or savings account,3811,2323.5,3904.1136137898957,2,ridge_a10
+2023-09-01,Debt collection,5298,4673.5,5302.9391741355485,2,ridge_a10
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1182.8474118273916,2,ridge_a10
+2023-09-01,Mortgage,1632,2010.5,1758.5843909720454,2,ridge_a10
+2023-09-01,Student loan,1423,465.5,581.9513711668202,2,ridge_a10
+2023-09-01,Vehicle loan or lease,946,609.5,919.4187812572096,2,ridge_a10
+2023-10-01,Checking or savings account,3795,2323.5,3987.877900184393,2,ridge_a10
+2023-10-01,Debt collection,5450,4673.5,5540.2904996227835,2,ridge_a10
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1210.2113347889192,2,ridge_a10
+2023-10-01,Mortgage,1721,2010.5,1809.5588033066822,2,ridge_a10
+2023-10-01,Student loan,2130,465.5,728.5961658581627,2,ridge_a10
+2023-10-01,Vehicle loan or lease,1012,609.5,1052.2008174236994,2,ridge_a10
+2023-11-01,Checking or savings account,3770,2323.5,3893.012222542058,2,ridge_a10
+2023-11-01,Debt collection,5566,4673.5,5387.477576690919,2,ridge_a10
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1241.2124788121844,2,ridge_a10
+2023-11-01,Mortgage,1818,2010.5,1758.4540167729106,2,ridge_a10
+2023-11-01,Student loan,1625,465.5,907.6276786703895,2,ridge_a10
+2023-11-01,Vehicle loan or lease,995,609.5,1013.7948574214694,2,ridge_a10
+2023-12-01,Checking or savings account,3821,2323.5,4047.620279319774,2,ridge_a10
+2023-12-01,Debt collection,6137,4673.5,5636.256282594026,2,ridge_a10
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1336.284386444444,2,ridge_a10
+2023-12-01,Mortgage,1779,2010.5,1896.8142238641126,2,ridge_a10
+2023-12-01,Student loan,1289,465.5,1215.4805784049595,2,ridge_a10
+2023-12-01,Vehicle loan or lease,918,609.5,1094.079617267016,2,ridge_a10
+2024-01-01,Checking or savings account,4032,2323.5,4749.811077203837,3,ridge_a10
+2024-01-01,Debt collection,7175,4673.5,6162.561301211417,3,ridge_a10
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1368.6725125570085,3,ridge_a10
+2024-01-01,Mortgage,1812,2010.5,2240.7111871929233,3,ridge_a10
+2024-01-01,Student loan,1617,465.5,1297.233754109694,3,ridge_a10
+2024-01-01,Vehicle loan or lease,1070,609.5,1241.6833626805785,3,ridge_a10
+2024-02-01,Checking or savings account,3833,2323.5,4264.232226839966,3,ridge_a10
+2024-02-01,Debt collection,8772,4673.5,6319.868470244869,3,ridge_a10
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1360.1309854449125,3,ridge_a10
+2024-02-01,Mortgage,1942,2010.5,2108.1675171506545,3,ridge_a10
+2024-02-01,Student loan,1222,465.5,1135.2899879088861,3,ridge_a10
+2024-02-01,Vehicle loan or lease,1032,609.5,1133.7302407295492,3,ridge_a10
+2024-03-01,Checking or savings account,4257,2323.5,4455.043790042999,3,ridge_a10
+2024-03-01,Debt collection,12354,4673.5,7160.316051893895,3,ridge_a10
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1410.5710487544486,3,ridge_a10
+2024-03-01,Mortgage,1893,2010.5,2123.5775380503037,3,ridge_a10
+2024-03-01,Student loan,1323,465.5,1192.049116987897,3,ridge_a10
+2024-03-01,Vehicle loan or lease,1333,609.5,1197.7475286469853,3,ridge_a10
+2024-04-01,Checking or savings account,4327,2323.5,4134.308255405628,3,ridge_a10
+2024-04-01,Debt collection,12912,4673.5,7713.486770861846,3,ridge_a10
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1390.4476578600695,3,ridge_a10
+2024-04-01,Mortgage,1817,2010.5,2036.1968806016819,3,ridge_a10
+2024-04-01,Student loan,1159,465.5,995.0087757523353,3,ridge_a10
+2024-04-01,Vehicle loan or lease,1094,609.5,1129.3832389118124,3,ridge_a10
+2024-05-01,Checking or savings account,4539,2323.5,4441.687732625091,3,ridge_a10
+2024-05-01,Debt collection,12426,4673.5,9336.644725437161,3,ridge_a10
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1478.7341495668522,3,ridge_a10
+2024-05-01,Mortgage,1713,2010.5,2074.9457894748894,3,ridge_a10
+2024-05-01,Student loan,1260,465.5,1004.891741302415,3,ridge_a10
+2024-05-01,Vehicle loan or lease,1050,609.5,1281.9271517222994,3,ridge_a10
+2024-06-01,Checking or savings account,3886,2323.5,4421.431090540901,3,ridge_a10
+2024-06-01,Debt collection,11099,4673.5,9839.167702570392,3,ridge_a10
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1417.1478891083257,3,ridge_a10
+2024-06-01,Mortgage,1575,2010.5,1968.7635022676693,3,ridge_a10
+2024-06-01,Student loan,987,465.5,925.3923581888423,3,ridge_a10
+2024-06-01,Vehicle loan or lease,946,609.5,1166.7634720020114,3,ridge_a10
+2023-01-01,Checking or savings account,6395,2323.5,3078.6029164934444,1,ridge_a100
+2023-01-01,Debt collection,5871,4673.5,4497.581863442042,1,ridge_a100
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1277.279689420834,1,ridge_a100
+2023-01-01,Mortgage,2837,2010.5,1865.6851570025826,1,ridge_a100
+2023-01-01,Student loan,580,465.5,936.8470606512057,1,ridge_a100
+2023-01-01,Vehicle loan or lease,1505,609.5,869.1134989702684,1,ridge_a100
+2023-02-01,Checking or savings account,3944,2323.5,3252.8091813342835,1,ridge_a100
+2023-02-01,Debt collection,5250,4673.5,4713.086762369828,1,ridge_a100
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1260.1928005816505,1,ridge_a100
+2023-02-01,Mortgage,2165,2010.5,1924.3302705983788,1,ridge_a100
+2023-02-01,Student loan,528,465.5,814.4080137523082,1,ridge_a100
+2023-02-01,Vehicle loan or lease,1170,609.5,946.2372573996752,1,ridge_a100
+2023-03-01,Checking or savings account,4299,2323.5,3993.158537356428,1,ridge_a100
+2023-03-01,Debt collection,6297,4673.5,5132.150857934663,1,ridge_a100
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1375.4588292841202,1,ridge_a100
+2023-03-01,Mortgage,2176,2010.5,2277.7449648310167,1,ridge_a100
+2023-03-01,Student loan,515,465.5,708.4904688994658,1,ridge_a100
+2023-03-01,Vehicle loan or lease,1170,609.5,1113.2005005699514,1,ridge_a100
+2023-04-01,Checking or savings account,3477,2323.5,4139.542140905171,1,ridge_a100
+2023-04-01,Debt collection,5514,4673.5,5309.32297428033,1,ridge_a100
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1346.367441617257,1,ridge_a100
+2023-04-01,Mortgage,1658,2010.5,2388.1211668916967,1,ridge_a100
+2023-04-01,Student loan,397,465.5,678.2118101767918,1,ridge_a100
+2023-04-01,Vehicle loan or lease,955,609.5,1216.064824847064,1,ridge_a100
+2023-05-01,Checking or savings account,4084,2323.5,4132.237480474549,1,ridge_a100
+2023-05-01,Debt collection,5867,4673.5,5319.645933145062,1,ridge_a100
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1319.728983653661,1,ridge_a100
+2023-05-01,Mortgage,1887,2010.5,2333.9009878943116,1,ridge_a100
+2023-05-01,Student loan,410,465.5,619.3646610696833,1,ridge_a100
+2023-05-01,Vehicle loan or lease,1034,609.5,1196.8213379594629,1,ridge_a100
+2023-06-01,Checking or savings account,3883,2323.5,3559.7477357469083,1,ridge_a100
+2023-06-01,Debt collection,5599,4673.5,5144.292642773927,1,ridge_a100
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1208.1836859850139,1,ridge_a100
+2023-06-01,Mortgage,1703,2010.5,2037.4856716741635,1,ridge_a100
+2023-06-01,Student loan,397,465.5,562.6534892778668,1,ridge_a100
+2023-06-01,Vehicle loan or lease,929,609.5,1057.5002662581712,1,ridge_a100
+2023-07-01,Checking or savings account,4279,2323.5,3543.4746257307515,2,ridge_a100
+2023-07-01,Debt collection,5414,4673.5,5064.66730840844,2,ridge_a100
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1198.7478161608558,2,ridge_a100
+2023-07-01,Mortgage,1633,2010.5,1876.7145411342362,2,ridge_a100
+2023-07-01,Student loan,570,465.5,501.6681468421802,2,ridge_a100
+2023-07-01,Vehicle loan or lease,907,609.5,986.4041261473533,2,ridge_a100
+2023-08-01,Checking or savings account,4315,2323.5,3525.4542608671973,2,ridge_a100
+2023-08-01,Debt collection,5844,4673.5,5028.239087233889,2,ridge_a100
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1219.3397159642955,2,ridge_a100
+2023-08-01,Mortgage,1844,2010.5,1825.3573388838965,2,ridge_a100
+2023-08-01,Student loan,769,465.5,498.0908151582584,2,ridge_a100
+2023-08-01,Vehicle loan or lease,1253,609.5,979.0214811771184,2,ridge_a100
+2023-09-01,Checking or savings account,3811,2323.5,3641.1187363343192,2,ridge_a100
+2023-09-01,Debt collection,5298,4673.5,4909.4631451160785,2,ridge_a100
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1207.0431921490012,2,ridge_a100
+2023-09-01,Mortgage,1632,2010.5,1770.602542359738,2,ridge_a100
+2023-09-01,Student loan,1423,465.5,620.1947200495655,2,ridge_a100
+2023-09-01,Vehicle loan or lease,946,609.5,963.3833585367146,2,ridge_a100
+2023-10-01,Checking or savings account,3795,2323.5,3704.3124412064676,2,ridge_a100
+2023-10-01,Debt collection,5450,4673.5,5021.715680752737,2,ridge_a100
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1210.5962973892088,2,ridge_a100
+2023-10-01,Mortgage,1721,2010.5,1757.597271558034,2,ridge_a100
+2023-10-01,Student loan,2130,465.5,753.2318485192252,2,ridge_a100
+2023-10-01,Vehicle loan or lease,1012,609.5,1032.0415620700924,2,ridge_a100
+2023-11-01,Checking or savings account,3770,2323.5,3699.7706851322087,2,ridge_a100
+2023-11-01,Debt collection,5566,4673.5,4940.71116747492,2,ridge_a100
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1245.6180165270246,2,ridge_a100
+2023-11-01,Mortgage,1818,2010.5,1739.009896025224,2,ridge_a100
+2023-11-01,Student loan,1625,465.5,870.6226946529403,2,ridge_a100
+2023-11-01,Vehicle loan or lease,995,609.5,1055.6408775261505,2,ridge_a100
+2023-12-01,Checking or savings account,3821,2323.5,3822.056165471426,2,ridge_a100
+2023-12-01,Debt collection,6137,4673.5,5132.798525238405,2,ridge_a100
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1310.7303109145248,2,ridge_a100
+2023-12-01,Mortgage,1779,2010.5,1862.482102515069,2,ridge_a100
+2023-12-01,Student loan,1289,465.5,1150.204869781819,2,ridge_a100
+2023-12-01,Vehicle loan or lease,918,609.5,1134.5454582430325,2,ridge_a100
+2024-01-01,Checking or savings account,4032,2323.5,4383.237397838529,3,ridge_a100
+2024-01-01,Debt collection,7175,4673.5,5550.697347374858,3,ridge_a100
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1370.0178649527763,3,ridge_a100
+2024-01-01,Mortgage,1812,2010.5,2135.3215951919906,3,ridge_a100
+2024-01-01,Student loan,1617,465.5,1407.301541166402,3,ridge_a100
+2024-01-01,Vehicle loan or lease,1070,609.5,1250.2728870240455,3,ridge_a100
+2024-02-01,Checking or savings account,3833,2323.5,3970.609244440966,3,ridge_a100
+2024-02-01,Debt collection,8772,4673.5,5639.947763554226,3,ridge_a100
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1357.2296554708473,3,ridge_a100
+2024-02-01,Mortgage,1942,2010.5,2055.2503059078276,3,ridge_a100
+2024-02-01,Student loan,1222,465.5,1330.9109727799682,3,ridge_a100
+2024-02-01,Vehicle loan or lease,1032,609.5,1175.9377333754846,3,ridge_a100
+2024-03-01,Checking or savings account,4257,2323.5,4107.70030238991,3,ridge_a100
+2024-03-01,Debt collection,12354,4673.5,6255.289756320624,3,ridge_a100
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1386.22013763146,3,ridge_a100
+2024-03-01,Mortgage,1893,2010.5,2078.1941859148437,3,ridge_a100
+2024-03-01,Student loan,1323,465.5,1273.7378814386313,3,ridge_a100
+2024-03-01,Vehicle loan or lease,1333,609.5,1199.3061929174207,3,ridge_a100
+2024-04-01,Checking or savings account,4327,2323.5,3899.091692121703,3,ridge_a100
+2024-04-01,Debt collection,12912,4673.5,6684.85127084591,3,ridge_a100
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1388.3244377168498,3,ridge_a100
+2024-04-01,Mortgage,1817,2010.5,1980.9871548461288,3,ridge_a100
+2024-04-01,Student loan,1159,465.5,1116.9378381665692,3,ridge_a100
+2024-04-01,Vehicle loan or lease,1094,609.5,1148.4555129512516,3,ridge_a100
+2024-05-01,Checking or savings account,4539,2323.5,4109.90746301072,3,ridge_a100
+2024-05-01,Debt collection,12426,4673.5,7861.1597946057045,3,ridge_a100
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1455.6088927376254,3,ridge_a100
+2024-05-01,Mortgage,1713,2010.5,2041.3331138456103,3,ridge_a100
+2024-05-01,Student loan,1260,465.5,1120.0225455874784,3,ridge_a100
+2024-05-01,Vehicle loan or lease,1050,609.5,1262.686207940212,3,ridge_a100
+2024-06-01,Checking or savings account,3886,2323.5,4092.2293835124233,3,ridge_a100
+2024-06-01,Debt collection,11099,4673.5,8670.066586983257,3,ridge_a100
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1442.924823625712,3,ridge_a100
+2024-06-01,Mortgage,1575,2010.5,1970.8263872650002,3,ridge_a100
+2024-06-01,Student loan,987,465.5,1027.9820949603375,3,ridge_a100
+2024-06-01,Vehicle loan or lease,946,609.5,1214.9415848084557,3,ridge_a100
+2023-01-01,Checking or savings account,6395,2323.5,3539.8939086013665,1,boost_d2_lr0.05_l20
+2023-01-01,Debt collection,5871,4673.5,4411.779847274563,1,boost_d2_lr0.05_l20
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1048.5156783618309,1,boost_d2_lr0.05_l20
+2023-01-01,Mortgage,2837,2010.5,1880.3261914899394,1,boost_d2_lr0.05_l20
+2023-01-01,Student loan,580,465.5,755.76582193193,1,boost_d2_lr0.05_l20
+2023-01-01,Vehicle loan or lease,1505,609.5,878.9045306882854,1,boost_d2_lr0.05_l20
+2023-02-01,Checking or savings account,3944,2323.5,3790.295528496964,1,boost_d2_lr0.05_l20
+2023-02-01,Debt collection,5250,4673.5,4978.181746304587,1,boost_d2_lr0.05_l20
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1107.8948742193706,1,boost_d2_lr0.05_l20
+2023-02-01,Mortgage,2165,2010.5,2077.6121480809516,1,boost_d2_lr0.05_l20
+2023-02-01,Student loan,528,465.5,639.5205015247967,1,boost_d2_lr0.05_l20
+2023-02-01,Vehicle loan or lease,1170,609.5,915.8979362629085,1,boost_d2_lr0.05_l20
+2023-03-01,Checking or savings account,4299,2323.5,4494.057700155135,1,boost_d2_lr0.05_l20
+2023-03-01,Debt collection,6297,4673.5,5382.907671759575,1,boost_d2_lr0.05_l20
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1084.5116455507177,1,boost_d2_lr0.05_l20
+2023-03-01,Mortgage,2176,2010.5,2779.742786775488,1,boost_d2_lr0.05_l20
+2023-03-01,Student loan,515,465.5,692.7973620645066,1,boost_d2_lr0.05_l20
+2023-03-01,Vehicle loan or lease,1170,609.5,1424.4192526336444,1,boost_d2_lr0.05_l20
+2023-04-01,Checking or savings account,3477,2323.5,3904.5958460933616,1,boost_d2_lr0.05_l20
+2023-04-01,Debt collection,5514,4673.5,5470.640992839174,1,boost_d2_lr0.05_l20
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1107.8948742193706,1,boost_d2_lr0.05_l20
+2023-04-01,Mortgage,1658,2010.5,2288.500814990885,1,boost_d2_lr0.05_l20
+2023-04-01,Student loan,397,465.5,567.9944954847697,1,boost_d2_lr0.05_l20
+2023-04-01,Vehicle loan or lease,955,609.5,1077.3681467769093,1,boost_d2_lr0.05_l20
+2023-05-01,Checking or savings account,4084,2323.5,3745.961549039057,1,boost_d2_lr0.05_l20
+2023-05-01,Debt collection,5867,4673.5,5168.592156804413,1,boost_d2_lr0.05_l20
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1035.604808965834,1,boost_d2_lr0.05_l20
+2023-05-01,Mortgage,1887,2010.5,2166.3628903185463,1,boost_d2_lr0.05_l20
+2023-05-01,Student loan,410,465.5,489.1585235156169,1,boost_d2_lr0.05_l20
+2023-05-01,Vehicle loan or lease,1034,609.5,975.0108230811944,1,boost_d2_lr0.05_l20
+2023-06-01,Checking or savings account,3883,2323.5,3562.9071940134304,1,boost_d2_lr0.05_l20
+2023-06-01,Debt collection,5599,4673.5,5168.592156804413,1,boost_d2_lr0.05_l20
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1033.4907007595582,1,boost_d2_lr0.05_l20
+2023-06-01,Mortgage,1703,2010.5,1944.4914139170726,1,boost_d2_lr0.05_l20
+2023-06-01,Student loan,397,465.5,432.289504457757,1,boost_d2_lr0.05_l20
+2023-06-01,Vehicle loan or lease,929,609.5,973.0202935441489,1,boost_d2_lr0.05_l20
+2023-07-01,Checking or savings account,4279,2323.5,4115.348284485939,2,boost_d2_lr0.05_l20
+2023-07-01,Debt collection,5414,4673.5,5211.087073452242,2,boost_d2_lr0.05_l20
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1054.8218030577846,2,boost_d2_lr0.05_l20
+2023-07-01,Mortgage,1633,2010.5,1920.324349120182,2,boost_d2_lr0.05_l20
+2023-07-01,Student loan,570,465.5,417.1925566698913,2,boost_d2_lr0.05_l20
+2023-07-01,Vehicle loan or lease,907,609.5,937.2125234046423,2,boost_d2_lr0.05_l20
+2023-08-01,Checking or savings account,4315,2323.5,3954.2667042582393,2,boost_d2_lr0.05_l20
+2023-08-01,Debt collection,5844,4673.5,5311.331380398914,2,boost_d2_lr0.05_l20
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1075.1284716562034,2,boost_d2_lr0.05_l20
+2023-08-01,Mortgage,1844,2010.5,1941.0092111613371,2,boost_d2_lr0.05_l20
+2023-08-01,Student loan,769,465.5,461.5138520015425,2,boost_d2_lr0.05_l20
+2023-08-01,Vehicle loan or lease,1253,609.5,1010.0522225092745,2,boost_d2_lr0.05_l20
+2023-09-01,Checking or savings account,3811,2323.5,4044.124039295723,2,boost_d2_lr0.05_l20
+2023-09-01,Debt collection,5298,4673.5,5311.331380398914,2,boost_d2_lr0.05_l20
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1075.1284716562034,2,boost_d2_lr0.05_l20
+2023-09-01,Mortgage,1632,2010.5,1887.3649549315965,2,boost_d2_lr0.05_l20
+2023-09-01,Student loan,1423,465.5,767.7123806497834,2,boost_d2_lr0.05_l20
+2023-09-01,Vehicle loan or lease,946,609.5,1010.0522225092745,2,boost_d2_lr0.05_l20
+2023-10-01,Checking or savings account,3795,2323.5,4522.271278417494,2,boost_d2_lr0.05_l20
+2023-10-01,Debt collection,5450,4673.5,5311.331380398914,2,boost_d2_lr0.05_l20
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1075.1284716562034,2,boost_d2_lr0.05_l20
+2023-10-01,Mortgage,1721,2010.5,1882.9690521126095,2,boost_d2_lr0.05_l20
+2023-10-01,Student loan,2130,465.5,1004.2685380151242,2,boost_d2_lr0.05_l20
+2023-10-01,Vehicle loan or lease,1012,609.5,1010.0522225092745,2,boost_d2_lr0.05_l20
+2023-11-01,Checking or savings account,3770,2323.5,3929.354465854057,2,boost_d2_lr0.05_l20
+2023-11-01,Debt collection,5566,4673.5,5277.871673196859,2,boost_d2_lr0.05_l20
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1068.3504789078108,2,boost_d2_lr0.05_l20
+2023-11-01,Mortgage,1818,2010.5,1728.3666915017006,2,boost_d2_lr0.05_l20
+2023-11-01,Student loan,1625,465.5,800.5003955774772,2,boost_d2_lr0.05_l20
+2023-11-01,Vehicle loan or lease,995,609.5,1003.6841123691654,2,boost_d2_lr0.05_l20
+2023-12-01,Checking or savings account,3821,2323.5,4132.721894762706,2,boost_d2_lr0.05_l20
+2023-12-01,Debt collection,6137,4673.5,5277.871673196859,2,boost_d2_lr0.05_l20
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1068.3504789078108,2,boost_d2_lr0.05_l20
+2023-12-01,Mortgage,1779,2010.5,1941.352783238855,2,boost_d2_lr0.05_l20
+2023-12-01,Student loan,1289,465.5,1238.2652219206748,2,boost_d2_lr0.05_l20
+2023-12-01,Vehicle loan or lease,918,609.5,1083.4956621321594,2,boost_d2_lr0.05_l20
+2024-01-01,Checking or savings account,4032,2323.5,4014.050505472663,3,boost_d2_lr0.05_l20
+2024-01-01,Debt collection,7175,4673.5,5332.042074208224,3,boost_d2_lr0.05_l20
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1197.6994507783972,3,boost_d2_lr0.05_l20
+2024-01-01,Mortgage,1812,2010.5,2359.816932336965,3,boost_d2_lr0.05_l20
+2024-01-01,Student loan,1617,465.5,1217.1341699724449,3,boost_d2_lr0.05_l20
+2024-01-01,Vehicle loan or lease,1070,609.5,1377.2409759128782,3,boost_d2_lr0.05_l20
+2024-02-01,Checking or savings account,3833,2323.5,4037.4225450723325,3,boost_d2_lr0.05_l20
+2024-02-01,Debt collection,8772,4673.5,5363.086284081849,3,boost_d2_lr0.05_l20
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1134.5287373180688,3,boost_d2_lr0.05_l20
+2024-02-01,Mortgage,1942,2010.5,1998.147286336878,3,boost_d2_lr0.05_l20
+2024-02-01,Student loan,1222,465.5,895.5256906252265,3,boost_d2_lr0.05_l20
+2024-02-01,Vehicle loan or lease,1032,609.5,1134.5287373180688,3,boost_d2_lr0.05_l20
+2024-03-01,Checking or savings account,4257,2323.5,4037.4225450723325,3,boost_d2_lr0.05_l20
+2024-03-01,Debt collection,12354,4673.5,5363.086284081849,3,boost_d2_lr0.05_l20
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1134.5287373180688,3,boost_d2_lr0.05_l20
+2024-03-01,Mortgage,1893,2010.5,2059.865049453715,3,boost_d2_lr0.05_l20
+2024-03-01,Student loan,1323,465.5,1191.1173776063556,3,boost_d2_lr0.05_l20
+2024-03-01,Vehicle loan or lease,1333,609.5,1134.5287373180688,3,boost_d2_lr0.05_l20
+2024-04-01,Checking or savings account,4327,2323.5,3961.7067766708,3,boost_d2_lr0.05_l20
+2024-04-01,Debt collection,12912,4673.5,5363.086284081849,3,boost_d2_lr0.05_l20
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1134.5287373180688,3,boost_d2_lr0.05_l20
+2024-04-01,Mortgage,1817,2010.5,1888.2359431297045,3,boost_d2_lr0.05_l20
+2024-04-01,Student loan,1159,465.5,895.5256906252265,3,boost_d2_lr0.05_l20
+2024-04-01,Vehicle loan or lease,1094,609.5,1134.5287373180688,3,boost_d2_lr0.05_l20
+2024-05-01,Checking or savings account,4539,2323.5,3992.753451421944,3,boost_d2_lr0.05_l20
+2024-05-01,Debt collection,12426,4673.5,5303.753990371081,3,boost_d2_lr0.05_l20
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1459.1326385006853,3,boost_d2_lr0.05_l20
+2024-05-01,Mortgage,1713,2010.5,1995.9359248148858,3,boost_d2_lr0.05_l20
+2024-05-01,Student loan,1260,465.5,888.3617096645095,3,boost_d2_lr0.05_l20
+2024-05-01,Vehicle loan or lease,1050,609.5,1125.4549245544652,3,boost_d2_lr0.05_l20
+2024-06-01,Checking or savings account,3886,2323.5,4567.999040497801,3,boost_d2_lr0.05_l20
+2024-06-01,Debt collection,11099,4673.5,5275.408099882297,3,boost_d2_lr0.05_l20
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1119.435725928113,3,boost_d2_lr0.05_l20
+2024-06-01,Mortgage,1575,2010.5,1897.5596685704243,3,boost_d2_lr0.05_l20
+2024-06-01,Student loan,987,465.5,888.3617096645095,3,boost_d2_lr0.05_l20
+2024-06-01,Vehicle loan or lease,946,609.5,1119.435725928113,3,boost_d2_lr0.05_l20
+2023-01-01,Checking or savings account,6395,2323.5,3607.9062876480543,1,boost_d2_lr0.05_l21
+2023-01-01,Debt collection,5871,4673.5,4457.671435906022,1,boost_d2_lr0.05_l21
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1047.459629778103,1,boost_d2_lr0.05_l21
+2023-01-01,Mortgage,2837,2010.5,1911.5916393387315,1,boost_d2_lr0.05_l21
+2023-01-01,Student loan,580,465.5,757.568175529805,1,boost_d2_lr0.05_l21
+2023-01-01,Vehicle loan or lease,1505,609.5,866.208177036233,1,boost_d2_lr0.05_l21
+2023-02-01,Checking or savings account,3944,2323.5,3809.135683484224,1,boost_d2_lr0.05_l21
+2023-02-01,Debt collection,5250,4673.5,4897.794149617006,1,boost_d2_lr0.05_l21
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1098.1840083880625,1,boost_d2_lr0.05_l21
+2023-02-01,Mortgage,2165,2010.5,2078.178012252196,1,boost_d2_lr0.05_l21
+2023-02-01,Student loan,528,465.5,632.778328168632,1,boost_d2_lr0.05_l21
+2023-02-01,Vehicle loan or lease,1170,609.5,903.1269765157623,1,boost_d2_lr0.05_l21
+2023-03-01,Checking or savings account,4299,2323.5,4405.976272989172,1,boost_d2_lr0.05_l21
+2023-03-01,Debt collection,6297,4673.5,5315.525947405819,1,boost_d2_lr0.05_l21
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1080.8436242352964,1,boost_d2_lr0.05_l21
+2023-03-01,Mortgage,2176,2010.5,2776.342038363369,1,boost_d2_lr0.05_l21
+2023-03-01,Student loan,515,465.5,685.8535853834891,1,boost_d2_lr0.05_l21
+2023-03-01,Vehicle loan or lease,1170,609.5,1448.2690250000344,1,boost_d2_lr0.05_l21
+2023-04-01,Checking or savings account,3477,2323.5,3933.8427810330745,1,boost_d2_lr0.05_l21
+2023-04-01,Debt collection,5514,4673.5,5393.194937046835,1,boost_d2_lr0.05_l21
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1098.1840083880625,1,boost_d2_lr0.05_l21
+2023-04-01,Mortgage,1658,2010.5,2280.0709848274664,1,boost_d2_lr0.05_l21
+2023-04-01,Student loan,397,465.5,562.3816123333519,1,boost_d2_lr0.05_l21
+2023-04-01,Vehicle loan or lease,955,609.5,1066.0932764810418,1,boost_d2_lr0.05_l21
+2023-05-01,Checking or savings account,4084,2323.5,3811.0175923904503,1,boost_d2_lr0.05_l21
+2023-05-01,Debt collection,5867,4673.5,5128.282836284405,1,boost_d2_lr0.05_l21
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1028.90997600191,1,boost_d2_lr0.05_l21
+2023-05-01,Mortgage,1887,2010.5,2151.4622222272087,1,boost_d2_lr0.05_l21
+2023-05-01,Student loan,410,465.5,484.1473852808235,1,boost_d2_lr0.05_l21
+2023-05-01,Vehicle loan or lease,1034,609.5,965.1917552700729,1,boost_d2_lr0.05_l21
+2023-06-01,Checking or savings account,3883,2323.5,3611.39112561332,1,boost_d2_lr0.05_l21
+2023-06-01,Debt collection,5599,4673.5,5128.282836284405,1,boost_d2_lr0.05_l21
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1028.90997600191,1,boost_d2_lr0.05_l21
+2023-06-01,Mortgage,1703,2010.5,1932.3666055001013,1,boost_d2_lr0.05_l21
+2023-06-01,Student loan,397,465.5,427.76428951457353,1,boost_d2_lr0.05_l21
+2023-06-01,Vehicle loan or lease,929,609.5,965.1917552700729,1,boost_d2_lr0.05_l21
+2023-07-01,Checking or savings account,4279,2323.5,4051.4959698078205,2,boost_d2_lr0.05_l21
+2023-07-01,Debt collection,5414,4673.5,5208.245787332483,2,boost_d2_lr0.05_l21
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1056.5562066066145,2,boost_d2_lr0.05_l21
+2023-07-01,Mortgage,1633,2010.5,1928.6009981701438,2,boost_d2_lr0.05_l21
+2023-07-01,Student loan,570,465.5,420.35252643802306,2,boost_d2_lr0.05_l21
+2023-07-01,Vehicle loan or lease,907,609.5,947.9586829445195,2,boost_d2_lr0.05_l21
+2023-08-01,Checking or savings account,4315,2323.5,3929.212793430918,2,boost_d2_lr0.05_l21
+2023-08-01,Debt collection,5844,4673.5,5297.332420502268,2,boost_d2_lr0.05_l21
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1074.642149501358,2,boost_d2_lr0.05_l21
+2023-08-01,Mortgage,1844,2010.5,1943.7359481563929,2,boost_d2_lr0.05_l21
+2023-08-01,Student loan,769,465.5,460.8325972398772,2,boost_d2_lr0.05_l21
+2023-08-01,Vehicle loan or lease,1253,609.5,1022.6249592702815,2,boost_d2_lr0.05_l21
+2023-09-01,Checking or savings account,3811,2323.5,4058.1645120102608,2,boost_d2_lr0.05_l21
+2023-09-01,Debt collection,5298,4673.5,5297.332420502268,2,boost_d2_lr0.05_l21
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1074.642149501358,2,boost_d2_lr0.05_l21
+2023-09-01,Mortgage,1632,2010.5,1890.6200417357136,2,boost_d2_lr0.05_l21
+2023-09-01,Student loan,1423,465.5,763.2207544800202,2,boost_d2_lr0.05_l21
+2023-09-01,Vehicle loan or lease,946,609.5,1009.4035617827449,2,boost_d2_lr0.05_l21
+2023-10-01,Checking or savings account,3795,2323.5,4512.607584233124,2,boost_d2_lr0.05_l21
+2023-10-01,Debt collection,5450,4673.5,5297.332420502268,2,boost_d2_lr0.05_l21
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1074.642149501358,2,boost_d2_lr0.05_l21
+2023-10-01,Mortgage,1721,2010.5,1906.3148014098686,2,boost_d2_lr0.05_l21
+2023-10-01,Student loan,2130,465.5,987.3335833072329,2,boost_d2_lr0.05_l21
+2023-10-01,Vehicle loan or lease,1012,609.5,1022.6249592702815,2,boost_d2_lr0.05_l21
+2023-11-01,Checking or savings account,3770,2323.5,3893.1140833726736,2,boost_d2_lr0.05_l21
+2023-11-01,Debt collection,5566,4673.5,5248.667634168157,2,boost_d2_lr0.05_l21
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1064.7624569447166,2,boost_d2_lr0.05_l21
+2023-11-01,Mortgage,1818,2010.5,1700.7808254936995,2,boost_d2_lr0.05_l21
+2023-11-01,Student loan,1625,465.5,801.411525573948,2,boost_d2_lr0.05_l21
+2023-11-01,Vehicle loan or lease,995,609.5,1013.2230407088127,2,boost_d2_lr0.05_l21
+2023-12-01,Checking or savings account,3821,2323.5,4066.58835142969,2,boost_d2_lr0.05_l21
+2023-12-01,Debt collection,6137,4673.5,5248.667634168157,2,boost_d2_lr0.05_l21
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1064.7624569447166,2,boost_d2_lr0.05_l21
+2023-12-01,Mortgage,1779,2010.5,1937.506151266399,2,boost_d2_lr0.05_l21
+2023-12-01,Student loan,1289,465.5,1229.3502735281913,2,boost_d2_lr0.05_l21
+2023-12-01,Vehicle loan or lease,918,609.5,1079.079752304613,2,boost_d2_lr0.05_l21
+2024-01-01,Checking or savings account,4032,2323.5,4023.0412720370564,3,boost_d2_lr0.05_l21
+2024-01-01,Debt collection,7175,4673.5,5340.806591941244,3,boost_d2_lr0.05_l21
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1195.897974936774,3,boost_d2_lr0.05_l21
+2024-01-01,Mortgage,1812,2010.5,2371.0180418647155,3,boost_d2_lr0.05_l21
+2024-01-01,Student loan,1617,465.5,1217.1315941477067,3,boost_d2_lr0.05_l21
+2024-01-01,Vehicle loan or lease,1070,609.5,1396.7685933939701,3,boost_d2_lr0.05_l21
+2024-02-01,Checking or savings account,3833,2323.5,4033.3012284556567,3,boost_d2_lr0.05_l21
+2024-02-01,Debt collection,8772,4673.5,5354.426408221648,3,boost_d2_lr0.05_l21
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1136.2898819705413,3,boost_d2_lr0.05_l21
+2024-02-01,Mortgage,1942,2010.5,1982.923134915463,3,boost_d2_lr0.05_l21
+2024-02-01,Student loan,1222,465.5,894.9498407480993,3,boost_d2_lr0.05_l21
+2024-02-01,Vehicle loan or lease,1032,609.5,1136.2898819705413,3,boost_d2_lr0.05_l21
+2024-03-01,Checking or savings account,4257,2323.5,4070.137816143492,3,boost_d2_lr0.05_l21
+2024-03-01,Debt collection,12354,4673.5,5354.426408221648,3,boost_d2_lr0.05_l21
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1136.2898819705413,3,boost_d2_lr0.05_l21
+2024-03-01,Mortgage,1893,2010.5,2052.235466109068,3,boost_d2_lr0.05_l21
+2024-03-01,Student loan,1323,465.5,1179.3431917446867,3,boost_d2_lr0.05_l21
+2024-03-01,Vehicle loan or lease,1333,609.5,1136.2898819705413,3,boost_d2_lr0.05_l21
+2024-04-01,Checking or savings account,4327,2323.5,3975.7268611632894,3,boost_d2_lr0.05_l21
+2024-04-01,Debt collection,12912,4673.5,5354.426408221648,3,boost_d2_lr0.05_l21
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1136.2898819705413,3,boost_d2_lr0.05_l21
+2024-04-01,Mortgage,1817,2010.5,1904.7845255695938,3,boost_d2_lr0.05_l21
+2024-04-01,Student loan,1159,465.5,894.9498407480993,3,boost_d2_lr0.05_l21
+2024-04-01,Vehicle loan or lease,1094,609.5,1136.2898819705413,3,boost_d2_lr0.05_l21
+2024-05-01,Checking or savings account,4539,2323.5,4038.519881785114,3,boost_d2_lr0.05_l21
+2024-05-01,Debt collection,12426,4673.5,5312.834222379934,3,boost_d2_lr0.05_l21
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1425.9723642289835,3,boost_d2_lr0.05_l21
+2024-05-01,Mortgage,1713,2010.5,1999.2355332923137,3,boost_d2_lr0.05_l21
+2024-05-01,Student loan,1260,465.5,880.0326491920159,3,boost_d2_lr0.05_l21
+2024-05-01,Vehicle loan or lease,1050,609.5,1127.335115642032,3,boost_d2_lr0.05_l21
+2024-06-01,Checking or savings account,3886,2323.5,4570.569329285346,3,boost_d2_lr0.05_l21
+2024-06-01,Debt collection,11099,4673.5,5271.50780038208,3,boost_d2_lr0.05_l21
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1118.559897749906,3,boost_d2_lr0.05_l21
+2024-06-01,Mortgage,1575,2010.5,1895.8017657698513,3,boost_d2_lr0.05_l21
+2024-06-01,Student loan,987,465.5,880.0326491920159,3,boost_d2_lr0.05_l21
+2024-06-01,Vehicle loan or lease,946,609.5,1118.559897749906,3,boost_d2_lr0.05_l21
+2023-01-01,Checking or savings account,6395,2323.5,3649.228266044531,1,boost_d2_lr0.1_l20
+2023-01-01,Debt collection,5871,4673.5,4428.018840625877,1,boost_d2_lr0.1_l20
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1062.2002397518438,1,boost_d2_lr0.1_l20
+2023-01-01,Mortgage,2837,2010.5,1918.2636245129504,1,boost_d2_lr0.1_l20
+2023-01-01,Student loan,580,465.5,754.8357411471188,1,boost_d2_lr0.1_l20
+2023-01-01,Vehicle loan or lease,1505,609.5,863.5835303091585,1,boost_d2_lr0.1_l20
+2023-02-01,Checking or savings account,3944,2323.5,3822.6460882579713,1,boost_d2_lr0.1_l20
+2023-02-01,Debt collection,5250,4673.5,4946.907090671792,1,boost_d2_lr0.1_l20
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1108.0534308926667,1,boost_d2_lr0.1_l20
+2023-02-01,Mortgage,2165,2010.5,2127.8345862357173,1,boost_d2_lr0.1_l20
+2023-02-01,Student loan,528,465.5,638.8162419794127,1,boost_d2_lr0.1_l20
+2023-02-01,Vehicle loan or lease,1170,609.5,906.6106386661248,1,boost_d2_lr0.1_l20
+2023-03-01,Checking or savings account,4299,2323.5,4745.953258428005,1,boost_d2_lr0.1_l20
+2023-03-01,Debt collection,6297,4673.5,5680.352218924951,1,boost_d2_lr0.1_l20
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1149.0476252194633,1,boost_d2_lr0.1_l20
+2023-03-01,Mortgage,2176,2010.5,2897.98017421723,1,boost_d2_lr0.1_l20
+2023-03-01,Student loan,515,465.5,722.4348092581135,1,boost_d2_lr0.1_l20
+2023-03-01,Vehicle loan or lease,1170,609.5,1541.6733853928233,1,boost_d2_lr0.1_l20
+2023-04-01,Checking or savings account,3477,2323.5,3877.325107339172,1,boost_d2_lr0.1_l20
+2023-04-01,Debt collection,5514,4673.5,5532.837343903258,1,boost_d2_lr0.1_l20
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1108.0534308926667,1,boost_d2_lr0.1_l20
+2023-04-01,Mortgage,1658,2010.5,2262.9304145998262,1,boost_d2_lr0.1_l20
+2023-04-01,Student loan,397,465.5,563.5033444100288,1,boost_d2_lr0.1_l20
+2023-04-01,Vehicle loan or lease,955,609.5,1065.4827157048874,1,boost_d2_lr0.1_l20
+2023-05-01,Checking or savings account,4084,2323.5,3730.850478756425,1,boost_d2_lr0.1_l20
+2023-05-01,Debt collection,5867,4673.5,5107.935363060845,1,boost_d2_lr0.1_l20
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1022.9231442601571,1,boost_d2_lr0.1_l20
+2023-05-01,Mortgage,1887,2010.5,2040.4015268337776,1,boost_d2_lr0.1_l20
+2023-05-01,Student loan,410,465.5,481.1047624027098,1,boost_d2_lr0.1_l20
+2023-05-01,Vehicle loan or lease,1034,609.5,945.6668592519832,1,boost_d2_lr0.1_l20
+2023-06-01,Checking or savings account,3883,2323.5,3470.2621254693477,1,boost_d2_lr0.1_l20
+2023-06-01,Debt collection,5599,4673.5,5081.00527915497,1,boost_d2_lr0.1_l20
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1022.9231442601571,1,boost_d2_lr0.1_l20
+2023-06-01,Mortgage,1703,2010.5,1842.9207126281378,1,boost_d2_lr0.1_l20
+2023-06-01,Student loan,397,465.5,436.6936203261462,1,boost_d2_lr0.1_l20
+2023-06-01,Vehicle loan or lease,929,609.5,940.6768141371252,1,boost_d2_lr0.1_l20
+2023-07-01,Checking or savings account,4279,2323.5,4159.470632155945,2,boost_d2_lr0.1_l20
+2023-07-01,Debt collection,5414,4673.5,5378.323257105389,2,boost_d2_lr0.1_l20
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1035.4161365543507,2,boost_d2_lr0.1_l20
+2023-07-01,Mortgage,1633,2010.5,1871.7860183200974,2,boost_d2_lr0.1_l20
+2023-07-01,Student loan,570,465.5,408.10973206637743,2,boost_d2_lr0.1_l20
+2023-07-01,Vehicle loan or lease,907,609.5,916.8085496322227,2,boost_d2_lr0.1_l20
+2023-08-01,Checking or savings account,4315,2323.5,3971.8262479818663,2,boost_d2_lr0.1_l20
+2023-08-01,Debt collection,5844,4673.5,5571.280203671618,2,boost_d2_lr0.1_l20
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1072.592503082863,2,boost_d2_lr0.1_l20
+2023-08-01,Mortgage,1844,2010.5,1932.0656294504097,2,boost_d2_lr0.1_l20
+2023-08-01,Student loan,769,465.5,517.5452163601458,2,boost_d2_lr0.1_l20
+2023-08-01,Vehicle loan or lease,1253,609.5,1003.7868572365253,2,boost_d2_lr0.1_l20
+2023-09-01,Checking or savings account,3811,2323.5,4172.839073976702,2,boost_d2_lr0.1_l20
+2023-09-01,Debt collection,5298,4673.5,5571.280203671618,2,boost_d2_lr0.1_l20
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1072.592503082863,2,boost_d2_lr0.1_l20
+2023-09-01,Mortgage,1632,2010.5,1886.689253289262,2,boost_d2_lr0.1_l20
+2023-09-01,Student loan,1423,465.5,894.2565513250827,2,boost_d2_lr0.1_l20
+2023-09-01,Vehicle loan or lease,946,609.5,1003.7868572365253,2,boost_d2_lr0.1_l20
+2023-10-01,Checking or savings account,3795,2323.5,4570.072249907518,2,boost_d2_lr0.1_l20
+2023-10-01,Debt collection,5450,4673.5,5535.50094773436,2,boost_d2_lr0.1_l20
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1072.592503082863,2,boost_d2_lr0.1_l20
+2023-10-01,Mortgage,1721,2010.5,1893.5794405616873,2,boost_d2_lr0.1_l20
+2023-10-01,Student loan,2130,465.5,1123.7835565288153,2,boost_d2_lr0.1_l20
+2023-10-01,Vehicle loan or lease,1012,609.5,1003.7868572365253,2,boost_d2_lr0.1_l20
+2023-11-01,Checking or savings account,3770,2323.5,3908.3661183815707,2,boost_d2_lr0.1_l20
+2023-11-01,Debt collection,5566,4673.5,5447.063385720702,2,boost_d2_lr0.1_l20
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1055.4434220179276,2,boost_d2_lr0.1_l20
+2023-11-01,Mortgage,1818,2010.5,1673.696469345635,2,boost_d2_lr0.1_l20
+2023-11-01,Student loan,1625,465.5,772.4791272073974,2,boost_d2_lr0.1_l20
+2023-11-01,Vehicle loan or lease,995,609.5,987.7368464379673,2,boost_d2_lr0.1_l20
+2023-12-01,Checking or savings account,3821,2323.5,4101.1667154605375,2,boost_d2_lr0.1_l20
+2023-12-01,Debt collection,6137,4673.5,5419.89164705076,2,boost_d2_lr0.1_l20
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1026.381233015403,2,boost_d2_lr0.1_l20
+2023-12-01,Mortgage,1779,2010.5,1903.2635304967257,2,boost_d2_lr0.1_l20
+2023-12-01,Student loan,1289,465.5,1086.9993061270698,2,boost_d2_lr0.1_l20
+2023-12-01,Vehicle loan or lease,918,609.5,1031.3064944484295,2,boost_d2_lr0.1_l20
+2024-01-01,Checking or savings account,4032,2323.5,4131.583583549051,3,boost_d2_lr0.1_l20
+2024-01-01,Debt collection,7175,4673.5,5523.945867815069,3,boost_d2_lr0.1_l20
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1204.499801962304,3,boost_d2_lr0.1_l20
+2024-01-01,Mortgage,1812,2010.5,2403.2632788106816,3,boost_d2_lr0.1_l20
+2024-01-01,Student loan,1617,465.5,1217.9466422448477,3,boost_d2_lr0.1_l20
+2024-01-01,Vehicle loan or lease,1070,609.5,1419.5380615138881,3,boost_d2_lr0.1_l20
+2024-02-01,Checking or savings account,3833,2323.5,4069.004017022854,3,boost_d2_lr0.1_l20
+2024-02-01,Debt collection,8772,4673.5,5471.28723303045,3,boost_d2_lr0.1_l20
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1135.9859696674284,3,boost_d2_lr0.1_l20
+2024-02-01,Mortgage,1942,2010.5,1979.4196662825243,3,boost_d2_lr0.1_l20
+2024-02-01,Student loan,1222,465.5,872.6875576871051,3,boost_d2_lr0.1_l20
+2024-02-01,Vehicle loan or lease,1032,609.5,1135.9859696674284,3,boost_d2_lr0.1_l20
+2024-03-01,Checking or savings account,4257,2323.5,4144.670332754111,3,boost_d2_lr0.1_l20
+2024-03-01,Debt collection,12354,4673.5,5471.28723303045,3,boost_d2_lr0.1_l20
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1135.9859696674284,3,boost_d2_lr0.1_l20
+2024-03-01,Mortgage,1893,2010.5,2042.6613455416114,3,boost_d2_lr0.1_l20
+2024-03-01,Student loan,1323,465.5,1159.9898373409878,3,boost_d2_lr0.1_l20
+2024-03-01,Vehicle loan or lease,1333,609.5,1135.9859696674284,3,boost_d2_lr0.1_l20
+2024-04-01,Checking or savings account,4327,2323.5,3992.019532539084,3,boost_d2_lr0.1_l20
+2024-04-01,Debt collection,12912,4673.5,5471.28723303045,3,boost_d2_lr0.1_l20
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1135.9859696674284,3,boost_d2_lr0.1_l20
+2024-04-01,Mortgage,1817,2010.5,1917.903541890405,3,boost_d2_lr0.1_l20
+2024-04-01,Student loan,1159,465.5,868.4713221380865,3,boost_d2_lr0.1_l20
+2024-04-01,Vehicle loan or lease,1094,609.5,1135.9859696674284,3,boost_d2_lr0.1_l20
+2024-05-01,Checking or savings account,4539,2323.5,4035.7394382107514,3,boost_d2_lr0.1_l20
+2024-05-01,Debt collection,12426,4673.5,5326.291112349147,3,boost_d2_lr0.1_l20
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1462.149388000408,3,boost_d2_lr0.1_l20
+2024-05-01,Mortgage,1713,2010.5,1944.8022362959634,3,boost_d2_lr0.1_l20
+2024-05-01,Student loan,1260,465.5,803.9651903474461,3,boost_d2_lr0.1_l20
+2024-05-01,Vehicle loan or lease,1050,609.5,1100.0737339968687,3,boost_d2_lr0.1_l20
+2024-06-01,Checking or savings account,3886,2323.5,4422.867836894843,3,boost_d2_lr0.1_l20
+2024-06-01,Debt collection,11099,4673.5,5238.246292735527,3,boost_d2_lr0.1_l20
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1074.9623491722002,3,boost_d2_lr0.1_l20
+2024-06-01,Mortgage,1575,2010.5,1819.3266048114217,3,boost_d2_lr0.1_l20
+2024-06-01,Student loan,987,465.5,793.0902574981206,3,boost_d2_lr0.1_l20
+2024-06-01,Vehicle loan or lease,946,609.5,1074.9623491722002,3,boost_d2_lr0.1_l20
+2023-01-01,Checking or savings account,6395,2323.5,3543.556379753032,1,boost_d2_lr0.1_l21
+2023-01-01,Debt collection,5871,4673.5,4538.123244884304,1,boost_d2_lr0.1_l21
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1085.9596279572656,1,boost_d2_lr0.1_l21
+2023-01-01,Mortgage,2837,2010.5,1961.7919064627051,1,boost_d2_lr0.1_l21
+2023-01-01,Student loan,580,465.5,760.6226146784819,1,boost_d2_lr0.1_l21
+2023-01-01,Vehicle loan or lease,1505,609.5,892.0321163173319,1,boost_d2_lr0.1_l21
+2023-02-01,Checking or savings account,3944,2323.5,3846.1970786396787,1,boost_d2_lr0.1_l21
+2023-02-01,Debt collection,5250,4673.5,4998.974918661014,1,boost_d2_lr0.1_l21
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1116.3674661535538,1,boost_d2_lr0.1_l21
+2023-02-01,Mortgage,2165,2010.5,2087.408795381812,1,boost_d2_lr0.1_l21
+2023-02-01,Student loan,528,465.5,632.4165270456147,1,boost_d2_lr0.1_l21
+2023-02-01,Vehicle loan or lease,1170,609.5,929.9725788636599,1,boost_d2_lr0.1_l21
+2023-03-01,Checking or savings account,4299,2323.5,4642.996059459269,1,boost_d2_lr0.1_l21
+2023-03-01,Debt collection,6297,4673.5,5620.858161266341,1,boost_d2_lr0.1_l21
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1143.2947454777025,1,boost_d2_lr0.1_l21
+2023-03-01,Mortgage,2176,2010.5,2844.4096498669915,1,boost_d2_lr0.1_l21
+2023-03-01,Student loan,515,465.5,719.8622222361307,1,boost_d2_lr0.1_l21
+2023-03-01,Vehicle loan or lease,1170,609.5,1537.4990174910615,1,boost_d2_lr0.1_l21
+2023-04-01,Checking or savings account,3477,2323.5,3926.344644971566,1,boost_d2_lr0.1_l21
+2023-04-01,Debt collection,5514,4673.5,5517.852676663526,1,boost_d2_lr0.1_l21
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1116.3674661535538,1,boost_d2_lr0.1_l21
+2023-04-01,Mortgage,1658,2010.5,2247.1719485073104,1,boost_d2_lr0.1_l21
+2023-04-01,Student loan,397,465.5,546.5922763683224,1,boost_d2_lr0.1_l21
+2023-04-01,Vehicle loan or lease,955,609.5,1078.5588150279145,1,boost_d2_lr0.1_l21
+2023-05-01,Checking or savings account,4084,2323.5,3757.9292991553334,1,boost_d2_lr0.1_l21
+2023-05-01,Debt collection,5867,4673.5,5090.504231642009,1,boost_d2_lr0.1_l21
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1032.4821886888433,1,boost_d2_lr0.1_l21
+2023-05-01,Mortgage,1887,2010.5,2034.816550307898,1,boost_d2_lr0.1_l21
+2023-05-01,Student loan,410,465.5,481.0089354342578,1,boost_d2_lr0.1_l21
+2023-05-01,Vehicle loan or lease,1034,609.5,951.0755501284846,1,boost_d2_lr0.1_l21
+2023-06-01,Checking or savings account,3883,2323.5,3494.209878804161,1,boost_d2_lr0.1_l21
+2023-06-01,Debt collection,5599,4673.5,5090.504231642009,1,boost_d2_lr0.1_l21
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1026.1726921003328,1,boost_d2_lr0.1_l21
+2023-06-01,Mortgage,1703,2010.5,1858.2391323259078,1,boost_d2_lr0.1_l21
+2023-06-01,Student loan,397,465.5,426.7252562231739,1,boost_d2_lr0.1_l21
+2023-06-01,Vehicle loan or lease,929,609.5,945.2630479864198,1,boost_d2_lr0.1_l21
+2023-07-01,Checking or savings account,4279,2323.5,4093.242622967876,2,boost_d2_lr0.1_l21
+2023-07-01,Debt collection,5414,4673.5,5354.965224193268,2,boost_d2_lr0.1_l21
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1028.3702930700665,2,boost_d2_lr0.1_l21
+2023-07-01,Mortgage,1633,2010.5,1881.5326822205957,2,boost_d2_lr0.1_l21
+2023-07-01,Student loan,570,465.5,398.36608043587665,2,boost_d2_lr0.1_l21
+2023-07-01,Vehicle loan or lease,907,609.5,912.9630990868449,2,boost_d2_lr0.1_l21
+2023-08-01,Checking or savings account,4315,2323.5,3986.2228796407094,2,boost_d2_lr0.1_l21
+2023-08-01,Debt collection,5844,4673.5,5579.74065873374,2,boost_d2_lr0.1_l21
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1071.5701917330935,2,boost_d2_lr0.1_l21
+2023-08-01,Mortgage,1844,2010.5,1913.3993475124878,2,boost_d2_lr0.1_l21
+2023-08-01,Student loan,769,465.5,517.2509556452907,2,boost_d2_lr0.1_l21
+2023-08-01,Vehicle loan or lease,1253,609.5,1001.4223187236989,2,boost_d2_lr0.1_l21
+2023-09-01,Checking or savings account,3811,2323.5,4113.595151832933,2,boost_d2_lr0.1_l21
+2023-09-01,Debt collection,5298,4673.5,5579.74065873374,2,boost_d2_lr0.1_l21
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1071.5701917330935,2,boost_d2_lr0.1_l21
+2023-09-01,Mortgage,1632,2010.5,1882.2487176618713,2,boost_d2_lr0.1_l21
+2023-09-01,Student loan,1423,465.5,876.7161696460447,2,boost_d2_lr0.1_l21
+2023-09-01,Vehicle loan or lease,946,609.5,1001.4223187236989,2,boost_d2_lr0.1_l21
+2023-10-01,Checking or savings account,3795,2323.5,4535.068689412172,2,boost_d2_lr0.1_l21
+2023-10-01,Debt collection,5450,4673.5,5520.587335305616,2,boost_d2_lr0.1_l21
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1071.5701917330935,2,boost_d2_lr0.1_l21
+2023-10-01,Mortgage,1721,2010.5,1914.3188836174845,2,boost_d2_lr0.1_l21
+2023-10-01,Student loan,2130,465.5,1122.7273339649034,2,boost_d2_lr0.1_l21
+2023-10-01,Vehicle loan or lease,1012,609.5,1001.4223187236989,2,boost_d2_lr0.1_l21
+2023-11-01,Checking or savings account,3770,2323.5,3948.8174173565535,2,boost_d2_lr0.1_l21
+2023-11-01,Debt collection,5566,4673.5,5468.787490387475,2,boost_d2_lr0.1_l21
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1061.508054484924,2,boost_d2_lr0.1_l21
+2023-11-01,Mortgage,1818,2010.5,1693.8681253231864,2,boost_d2_lr0.1_l21
+2023-11-01,Student loan,1625,465.5,777.6952764712388,2,boost_d2_lr0.1_l21
+2023-11-01,Vehicle loan or lease,995,609.5,992.0182619735034,2,boost_d2_lr0.1_l21
+2023-12-01,Checking or savings account,3821,2323.5,4149.346881346338,2,boost_d2_lr0.1_l21
+2023-12-01,Debt collection,6137,4673.5,5443.559388852901,2,boost_d2_lr0.1_l21
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1028.4997501143937,2,boost_d2_lr0.1_l21
+2023-12-01,Mortgage,1779,2010.5,1886.6928514499489,2,boost_d2_lr0.1_l21
+2023-12-01,Student loan,1289,465.5,1139.4336451806678,2,boost_d2_lr0.1_l21
+2023-12-01,Vehicle loan or lease,918,609.5,1028.4997501143937,2,boost_d2_lr0.1_l21
+2024-01-01,Checking or savings account,4032,2323.5,4117.847148692963,3,boost_d2_lr0.1_l21
+2024-01-01,Debt collection,7175,4673.5,5493.93052563593,3,boost_d2_lr0.1_l21
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1198.6816025679218,3,boost_d2_lr0.1_l21
+2024-01-01,Mortgage,1812,2010.5,2369.934190563109,3,boost_d2_lr0.1_l21
+2024-01-01,Student loan,1617,465.5,1199.4473053085076,3,boost_d2_lr0.1_l21
+2024-01-01,Vehicle loan or lease,1070,609.5,1399.6892968891236,3,boost_d2_lr0.1_l21
+2024-02-01,Checking or savings account,3833,2323.5,4148.543016588687,3,boost_d2_lr0.1_l21
+2024-02-01,Debt collection,8772,4673.5,5479.9531894943375,3,boost_d2_lr0.1_l21
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1137.1654489569771,3,boost_d2_lr0.1_l21
+2024-02-01,Mortgage,1942,2010.5,1967.6208574307414,3,boost_d2_lr0.1_l21
+2024-02-01,Student loan,1222,465.5,865.318468783064,3,boost_d2_lr0.1_l21
+2024-02-01,Vehicle loan or lease,1032,609.5,1137.1654489569771,3,boost_d2_lr0.1_l21
+2024-03-01,Checking or savings account,4257,2323.5,4188.314348681535,3,boost_d2_lr0.1_l21
+2024-03-01,Debt collection,12354,4673.5,5506.402913633325,3,boost_d2_lr0.1_l21
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1137.1654489569771,3,boost_d2_lr0.1_l21
+2024-03-01,Mortgage,1893,2010.5,2056.319426485512,3,boost_d2_lr0.1_l21
+2024-03-01,Student loan,1323,465.5,1155.0026702485227,3,boost_d2_lr0.1_l21
+2024-03-01,Vehicle loan or lease,1333,609.5,1137.1654489569771,3,boost_d2_lr0.1_l21
+2024-04-01,Checking or savings account,4327,2323.5,4065.792568289177,3,boost_d2_lr0.1_l21
+2024-04-01,Debt collection,12912,4673.5,5506.402913633325,3,boost_d2_lr0.1_l21
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1137.1654489569771,3,boost_d2_lr0.1_l21
+2024-04-01,Mortgage,1817,2010.5,1924.4812578420554,3,boost_d2_lr0.1_l21
+2024-04-01,Student loan,1159,465.5,859.6166181675555,3,boost_d2_lr0.1_l21
+2024-04-01,Vehicle loan or lease,1094,609.5,1137.1654489569771,3,boost_d2_lr0.1_l21
+2024-05-01,Checking or savings account,4539,2323.5,4017.427021708279,3,boost_d2_lr0.1_l21
+2024-05-01,Debt collection,12426,4673.5,5296.853090146513,3,boost_d2_lr0.1_l21
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1460.1583165538534,3,boost_d2_lr0.1_l21
+2024-05-01,Mortgage,1713,2010.5,1952.2872570818488,3,boost_d2_lr0.1_l21
+2024-05-01,Student loan,1260,465.5,830.3423678538185,3,boost_d2_lr0.1_l21
+2024-05-01,Vehicle loan or lease,1050,609.5,1094.004767743694,3,boost_d2_lr0.1_l21
+2024-06-01,Checking or savings account,3886,2323.5,4455.308491762672,3,boost_d2_lr0.1_l21
+2024-06-01,Debt collection,11099,4673.5,5223.128182965543,3,boost_d2_lr0.1_l21
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1074.7562891339871,3,boost_d2_lr0.1_l21
+2024-06-01,Mortgage,1575,2010.5,1846.1032842314332,3,boost_d2_lr0.1_l21
+2024-06-01,Student loan,987,465.5,822.475731816646,3,boost_d2_lr0.1_l21
+2024-06-01,Vehicle loan or lease,946,609.5,1074.7562891339871,3,boost_d2_lr0.1_l21
+2023-01-01,Checking or savings account,6395,2323.5,3541.822958723549,1,boost_d3_lr0.05_l20
+2023-01-01,Debt collection,5871,4673.5,4234.824680262818,1,boost_d3_lr0.05_l20
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1153.1584779864038,1,boost_d3_lr0.05_l20
+2023-01-01,Mortgage,2837,2010.5,1836.8115822240907,1,boost_d3_lr0.05_l20
+2023-01-01,Student loan,580,465.5,753.0858913571692,1,boost_d3_lr0.05_l20
+2023-01-01,Vehicle loan or lease,1505,609.5,819.0189426509013,1,boost_d3_lr0.05_l20
+2023-02-01,Checking or savings account,3944,2323.5,3776.7713147139107,1,boost_d3_lr0.05_l20
+2023-02-01,Debt collection,5250,4673.5,4786.247383487054,1,boost_d3_lr0.05_l20
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1181.3022326435378,1,boost_d3_lr0.05_l20
+2023-02-01,Mortgage,2165,2010.5,1986.4138715582537,1,boost_d3_lr0.05_l20
+2023-02-01,Student loan,528,465.5,667.311721634697,1,boost_d3_lr0.05_l20
+2023-02-01,Vehicle loan or lease,1170,609.5,880.6658034391066,1,boost_d3_lr0.05_l20
+2023-03-01,Checking or savings account,4299,2323.5,3860.954392946267,1,boost_d3_lr0.05_l20
+2023-03-01,Debt collection,6297,4673.5,5297.086751368639,1,boost_d3_lr0.05_l20
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1193.5608541938361,1,boost_d3_lr0.05_l20
+2023-03-01,Mortgage,2176,2010.5,2641.1437829029023,1,boost_d3_lr0.05_l20
+2023-03-01,Student loan,515,465.5,808.564256520622,1,boost_d3_lr0.05_l20
+2023-03-01,Vehicle loan or lease,1170,609.5,1406.5416927581027,1,boost_d3_lr0.05_l20
+2023-04-01,Checking or savings account,3477,2323.5,3953.2805284717324,1,boost_d3_lr0.05_l20
+2023-04-01,Debt collection,5514,4673.5,5390.6715854222475,1,boost_d3_lr0.05_l20
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1181.3022326435378,1,boost_d3_lr0.05_l20
+2023-04-01,Mortgage,1658,2010.5,2180.4901782059974,1,boost_d3_lr0.05_l20
+2023-04-01,Student loan,397,465.5,667.311721634697,1,boost_d3_lr0.05_l20
+2023-04-01,Vehicle loan or lease,955,609.5,913.7233329396447,1,boost_d3_lr0.05_l20
+2023-05-01,Checking or savings account,4084,2323.5,3802.346657587505,1,boost_d3_lr0.05_l20
+2023-05-01,Debt collection,5867,4673.5,5142.549744060649,1,boost_d3_lr0.05_l20
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1132.5506913593115,1,boost_d3_lr0.05_l20
+2023-05-01,Mortgage,1887,2010.5,2032.5595730892546,1,boost_d3_lr0.05_l20
+2023-05-01,Student loan,410,465.5,548.862597174213,1,boost_d3_lr0.05_l20
+2023-05-01,Vehicle loan or lease,1034,609.5,794.8478046401082,1,boost_d3_lr0.05_l20
+2023-06-01,Checking or savings account,3883,2323.5,3575.617705398041,1,boost_d3_lr0.05_l20
+2023-06-01,Debt collection,5599,4673.5,5142.549744060649,1,boost_d3_lr0.05_l20
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1123.4361854469373,1,boost_d3_lr0.05_l20
+2023-06-01,Mortgage,1703,2010.5,1822.869703640882,1,boost_d3_lr0.05_l20
+2023-06-01,Student loan,397,465.5,477.6410464910737,1,boost_d3_lr0.05_l20
+2023-06-01,Vehicle loan or lease,929,609.5,788.4486558626999,1,boost_d3_lr0.05_l20
+2023-07-01,Checking or savings account,4279,2323.5,4125.760877471743,2,boost_d3_lr0.05_l20
+2023-07-01,Debt collection,5414,4673.5,5358.246489847505,2,boost_d3_lr0.05_l20
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1052.625003327602,2,boost_d3_lr0.05_l20
+2023-07-01,Mortgage,1633,2010.5,1848.4047495437192,2,boost_d3_lr0.05_l20
+2023-07-01,Student loan,570,465.5,424.297005172752,2,boost_d3_lr0.05_l20
+2023-07-01,Vehicle loan or lease,907,609.5,855.254922082577,2,boost_d3_lr0.05_l20
+2023-08-01,Checking or savings account,4315,2323.5,3968.8883581538666,2,boost_d3_lr0.05_l20
+2023-08-01,Debt collection,5844,4673.5,5389.294525038996,2,boost_d3_lr0.05_l20
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1064.9128362055296,2,boost_d3_lr0.05_l20
+2023-08-01,Mortgage,1844,2010.5,1823.4649668380423,2,boost_d3_lr0.05_l20
+2023-08-01,Student loan,769,465.5,528.3176007819312,2,boost_d3_lr0.05_l20
+2023-08-01,Vehicle loan or lease,1253,609.5,917.4946342071771,2,boost_d3_lr0.05_l20
+2023-09-01,Checking or savings account,3811,2323.5,4074.788066591918,2,boost_d3_lr0.05_l20
+2023-09-01,Debt collection,5298,4673.5,5416.019160061645,2,boost_d3_lr0.05_l20
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1064.9128362055296,2,boost_d3_lr0.05_l20
+2023-09-01,Mortgage,1632,2010.5,1777.7106015676472,2,boost_d3_lr0.05_l20
+2023-09-01,Student loan,1423,465.5,763.7448609595091,2,boost_d3_lr0.05_l20
+2023-09-01,Vehicle loan or lease,946,609.5,917.4946342071771,2,boost_d3_lr0.05_l20
+2023-10-01,Checking or savings account,3795,2323.5,4537.133889965606,2,boost_d3_lr0.05_l20
+2023-10-01,Debt collection,5450,4673.5,5416.019160061645,2,boost_d3_lr0.05_l20
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1064.9128362055296,2,boost_d3_lr0.05_l20
+2023-10-01,Mortgage,1721,2010.5,1805.9737536280447,2,boost_d3_lr0.05_l20
+2023-10-01,Student loan,2130,465.5,947.79097419468,2,boost_d3_lr0.05_l20
+2023-10-01,Vehicle loan or lease,1012,609.5,917.4946342071771,2,boost_d3_lr0.05_l20
+2023-11-01,Checking or savings account,3770,2323.5,3988.5707367251116,2,boost_d3_lr0.05_l20
+2023-11-01,Debt collection,5566,4673.5,5416.019160061645,2,boost_d3_lr0.05_l20
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1064.9128362055296,2,boost_d3_lr0.05_l20
+2023-11-01,Mortgage,1818,2010.5,1646.2363439415512,2,boost_d3_lr0.05_l20
+2023-11-01,Student loan,1625,465.5,730.8144916430459,2,boost_d3_lr0.05_l20
+2023-11-01,Vehicle loan or lease,995,609.5,917.4946342071771,2,boost_d3_lr0.05_l20
+2023-12-01,Checking or savings account,3821,2323.5,4158.960307662795,2,boost_d3_lr0.05_l20
+2023-12-01,Debt collection,6137,4673.5,5387.323800268955,2,boost_d3_lr0.05_l20
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1034.3578272743616,2,boost_d3_lr0.05_l20
+2023-12-01,Mortgage,1779,2010.5,1812.202184686991,2,boost_d3_lr0.05_l20
+2023-12-01,Student loan,1289,465.5,1008.3544813436212,2,boost_d3_lr0.05_l20
+2023-12-01,Vehicle loan or lease,918,609.5,964.0496124238422,2,boost_d3_lr0.05_l20
+2024-01-01,Checking or savings account,4032,2323.5,4131.750962802731,3,boost_d3_lr0.05_l20
+2024-01-01,Debt collection,7175,4673.5,5501.771049527213,3,boost_d3_lr0.05_l20
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1137.2767731777199,3,boost_d3_lr0.05_l20
+2024-01-01,Mortgage,1812,2010.5,2331.802844771722,3,boost_d3_lr0.05_l20
+2024-01-01,Student loan,1617,465.5,1251.7193217747495,3,boost_d3_lr0.05_l20
+2024-01-01,Vehicle loan or lease,1070,609.5,1365.6957435163915,3,boost_d3_lr0.05_l20
+2024-02-01,Checking or savings account,3833,2323.5,4183.506861331805,3,boost_d3_lr0.05_l20
+2024-02-01,Debt collection,8772,4673.5,5545.727843337294,3,boost_d3_lr0.05_l20
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1144.6436083057713,3,boost_d3_lr0.05_l20
+2024-02-01,Mortgage,1942,2010.5,1946.9731614699826,3,boost_d3_lr0.05_l20
+2024-02-01,Student loan,1222,465.5,848.1547818592031,3,boost_d3_lr0.05_l20
+2024-02-01,Vehicle loan or lease,1032,609.5,1057.7870173176061,3,boost_d3_lr0.05_l20
+2024-03-01,Checking or savings account,4257,2323.5,4186.916686989954,3,boost_d3_lr0.05_l20
+2024-03-01,Debt collection,12354,4673.5,5530.958049745799,3,boost_d3_lr0.05_l20
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1133.9262310414802,3,boost_d3_lr0.05_l20
+2024-03-01,Mortgage,1893,2010.5,1971.0018379060873,3,boost_d3_lr0.05_l20
+2024-03-01,Student loan,1323,465.5,1217.1913225063404,3,boost_d3_lr0.05_l20
+2024-03-01,Vehicle loan or lease,1333,609.5,1057.7870173176061,3,boost_d3_lr0.05_l20
+2024-04-01,Checking or savings account,4327,2323.5,4032.858743724716,3,boost_d3_lr0.05_l20
+2024-04-01,Debt collection,12912,4673.5,5530.958049745799,3,boost_d3_lr0.05_l20
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1144.6436083057713,3,boost_d3_lr0.05_l20
+2024-04-01,Mortgage,1817,2010.5,1752.8782202227956,3,boost_d3_lr0.05_l20
+2024-04-01,Student loan,1159,465.5,823.2632096782316,3,boost_d3_lr0.05_l20
+2024-04-01,Vehicle loan or lease,1094,609.5,1057.7870173176061,3,boost_d3_lr0.05_l20
+2024-05-01,Checking or savings account,4539,2323.5,4125.551282285575,3,boost_d3_lr0.05_l20
+2024-05-01,Debt collection,12426,4673.5,5439.27385221521,3,boost_d3_lr0.05_l20
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1357.7078351427033,3,boost_d3_lr0.05_l20
+2024-05-01,Mortgage,1713,2010.5,1855.3203544236962,3,boost_d3_lr0.05_l20
+2024-05-01,Student loan,1260,465.5,791.1943709901286,3,boost_d3_lr0.05_l20
+2024-05-01,Vehicle loan or lease,1050,609.5,1026.9305233944099,3,boost_d3_lr0.05_l20
+2024-06-01,Checking or savings account,3886,2323.5,4642.584430741721,3,boost_d3_lr0.05_l20
+2024-06-01,Debt collection,11099,4673.5,5382.0807869348455,3,boost_d3_lr0.05_l20
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1104.2115220427559,3,boost_d3_lr0.05_l20
+2024-06-01,Mortgage,1575,2010.5,1752.3155256122006,3,boost_d3_lr0.05_l20
+2024-06-01,Student loan,987,465.5,780.5987998300095,3,boost_d3_lr0.05_l20
+2024-06-01,Vehicle loan or lease,946,609.5,1020.4202762927476,3,boost_d3_lr0.05_l20
+2023-01-01,Checking or savings account,6395,2323.5,3524.48670482483,1,boost_d3_lr0.05_l21
+2023-01-01,Debt collection,5871,4673.5,4303.237918594908,1,boost_d3_lr0.05_l21
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1147.7655453692905,1,boost_d3_lr0.05_l21
+2023-01-01,Mortgage,2837,2010.5,1818.559861162494,1,boost_d3_lr0.05_l21
+2023-01-01,Student loan,580,465.5,752.4211307411604,1,boost_d3_lr0.05_l21
+2023-01-01,Vehicle loan or lease,1505,609.5,817.994450846353,1,boost_d3_lr0.05_l21
+2023-02-01,Checking or savings account,3944,2323.5,3736.0994866868778,1,boost_d3_lr0.05_l21
+2023-02-01,Debt collection,5250,4673.5,4842.99506324383,1,boost_d3_lr0.05_l21
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1170.746600934854,1,boost_d3_lr0.05_l21
+2023-02-01,Mortgage,2165,2010.5,1960.8475646596871,1,boost_d3_lr0.05_l21
+2023-02-01,Student loan,528,465.5,656.7221281201178,1,boost_d3_lr0.05_l21
+2023-02-01,Vehicle loan or lease,1170,609.5,869.4604056123488,1,boost_d3_lr0.05_l21
+2023-03-01,Checking or savings account,4299,2323.5,4000.7782489226242,1,boost_d3_lr0.05_l21
+2023-03-01,Debt collection,6297,4673.5,5241.025337159057,1,boost_d3_lr0.05_l21
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1186.0313003746787,1,boost_d3_lr0.05_l21
+2023-03-01,Mortgage,2176,2010.5,2687.443668060447,1,boost_d3_lr0.05_l21
+2023-03-01,Student loan,515,465.5,792.0114959757901,1,boost_d3_lr0.05_l21
+2023-03-01,Vehicle loan or lease,1170,609.5,1401.1377540785122,1,boost_d3_lr0.05_l21
+2023-04-01,Checking or savings account,3477,2323.5,3863.801345251644,1,boost_d3_lr0.05_l21
+2023-04-01,Debt collection,5514,4673.5,5336.240045193321,1,boost_d3_lr0.05_l21
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1170.746600934854,1,boost_d3_lr0.05_l21
+2023-04-01,Mortgage,1658,2010.5,2167.1213529632987,1,boost_d3_lr0.05_l21
+2023-04-01,Student loan,397,465.5,656.7221281201178,1,boost_d3_lr0.05_l21
+2023-04-01,Vehicle loan or lease,955,609.5,894.0858620711215,1,boost_d3_lr0.05_l21
+2023-05-01,Checking or savings account,4084,2323.5,3824.668812722457,1,boost_d3_lr0.05_l21
+2023-05-01,Debt collection,5867,4673.5,5144.229281217913,1,boost_d3_lr0.05_l21
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1130.1889860802396,1,boost_d3_lr0.05_l21
+2023-05-01,Mortgage,1887,2010.5,1988.4245976410093,1,boost_d3_lr0.05_l21
+2023-05-01,Student loan,410,465.5,572.2601283220793,1,boost_d3_lr0.05_l21
+2023-05-01,Vehicle loan or lease,1034,609.5,798.9505242303114,1,boost_d3_lr0.05_l21
+2023-06-01,Checking or savings account,3883,2323.5,3556.172292121911,1,boost_d3_lr0.05_l21
+2023-06-01,Debt collection,5599,4673.5,5144.229281217913,1,boost_d3_lr0.05_l21
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1121.1829431367312,1,boost_d3_lr0.05_l21
+2023-06-01,Mortgage,1703,2010.5,1796.9056364882877,1,boost_d3_lr0.05_l21
+2023-06-01,Student loan,397,465.5,487.1654886995068,1,boost_d3_lr0.05_l21
+2023-06-01,Vehicle loan or lease,929,609.5,792.581660262793,1,boost_d3_lr0.05_l21
+2023-07-01,Checking or savings account,4279,2323.5,4074.629243795603,2,boost_d3_lr0.05_l21
+2023-07-01,Debt collection,5414,4673.5,5312.742505450187,2,boost_d3_lr0.05_l21
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1043.3280544995175,2,boost_d3_lr0.05_l21
+2023-07-01,Mortgage,1633,2010.5,1830.769241086439,2,boost_d3_lr0.05_l21
+2023-07-01,Student loan,570,465.5,439.65117195258256,2,boost_d3_lr0.05_l21
+2023-07-01,Vehicle loan or lease,907,609.5,844.632218155138,2,boost_d3_lr0.05_l21
+2023-08-01,Checking or savings account,4315,2323.5,3936.7388427529413,2,boost_d3_lr0.05_l21
+2023-08-01,Debt collection,5844,4673.5,5285.030509221772,2,boost_d3_lr0.05_l21
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1047.6949467325992,2,boost_d3_lr0.05_l21
+2023-08-01,Mortgage,1844,2010.5,1809.9047936469563,2,boost_d3_lr0.05_l21
+2023-08-01,Student loan,769,465.5,508.90191922691855,2,boost_d3_lr0.05_l21
+2023-08-01,Vehicle loan or lease,1253,609.5,908.2306312727825,2,boost_d3_lr0.05_l21
+2023-09-01,Checking or savings account,3811,2323.5,4042.622295010369,2,boost_d3_lr0.05_l21
+2023-09-01,Debt collection,5298,4673.5,5359.3265287895165,2,boost_d3_lr0.05_l21
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1047.6949467325992,2,boost_d3_lr0.05_l21
+2023-09-01,Mortgage,1632,2010.5,1743.3807088688486,2,boost_d3_lr0.05_l21
+2023-09-01,Student loan,1423,465.5,723.3536940609216,2,boost_d3_lr0.05_l21
+2023-09-01,Vehicle loan or lease,946,609.5,908.2306312727825,2,boost_d3_lr0.05_l21
+2023-10-01,Checking or savings account,3795,2323.5,4550.057959977966,2,boost_d3_lr0.05_l21
+2023-10-01,Debt collection,5450,4673.5,5384.35843931931,2,boost_d3_lr0.05_l21
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1047.6949467325992,2,boost_d3_lr0.05_l21
+2023-10-01,Mortgage,1721,2010.5,1774.7476746601926,2,boost_d3_lr0.05_l21
+2023-10-01,Student loan,2130,465.5,882.4727248059286,2,boost_d3_lr0.05_l21
+2023-10-01,Vehicle loan or lease,1012,609.5,908.2306312727825,2,boost_d3_lr0.05_l21
+2023-11-01,Checking or savings account,3770,2323.5,4014.157394284778,2,boost_d3_lr0.05_l21
+2023-11-01,Debt collection,5566,4673.5,5384.336148730665,2,boost_d3_lr0.05_l21
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1047.6949467325992,2,boost_d3_lr0.05_l21
+2023-11-01,Mortgage,1818,2010.5,1595.0652596685202,2,boost_d3_lr0.05_l21
+2023-11-01,Student loan,1625,465.5,717.8423186442654,2,boost_d3_lr0.05_l21
+2023-11-01,Vehicle loan or lease,995,609.5,908.2306312727825,2,boost_d3_lr0.05_l21
+2023-12-01,Checking or savings account,3821,2323.5,4162.763604456026,2,boost_d3_lr0.05_l21
+2023-12-01,Debt collection,6137,4673.5,5317.08974299884,2,boost_d3_lr0.05_l21
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1028.701279491117,2,boost_d3_lr0.05_l21
+2023-12-01,Mortgage,1779,2010.5,1802.1494361430268,2,boost_d3_lr0.05_l21
+2023-12-01,Student loan,1289,465.5,1077.2104959660023,2,boost_d3_lr0.05_l21
+2023-12-01,Vehicle loan or lease,918,609.5,935.7033758808751,2,boost_d3_lr0.05_l21
+2024-01-01,Checking or savings account,4032,2323.5,4130.655212096143,3,boost_d3_lr0.05_l21
+2024-01-01,Debt collection,7175,4673.5,5472.196849561196,3,boost_d3_lr0.05_l21
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1157.318620889813,3,boost_d3_lr0.05_l21
+2024-01-01,Mortgage,1812,2010.5,2294.499446409994,3,boost_d3_lr0.05_l21
+2024-01-01,Student loan,1617,465.5,1287.33451869645,3,boost_d3_lr0.05_l21
+2024-01-01,Vehicle loan or lease,1070,609.5,1371.0129824235391,3,boost_d3_lr0.05_l21
+2024-02-01,Checking or savings account,3833,2323.5,4162.93107237538,3,boost_d3_lr0.05_l21
+2024-02-01,Debt collection,8772,4673.5,5536.719745304303,3,boost_d3_lr0.05_l21
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1162.6744747157463,3,boost_d3_lr0.05_l21
+2024-02-01,Mortgage,1942,2010.5,1957.8580431753176,3,boost_d3_lr0.05_l21
+2024-02-01,Student loan,1222,465.5,872.2383489519126,3,boost_d3_lr0.05_l21
+2024-02-01,Vehicle loan or lease,1032,609.5,1073.9004157177906,3,boost_d3_lr0.05_l21
+2024-03-01,Checking or savings account,4257,2323.5,4187.613833221457,3,boost_d3_lr0.05_l21
+2024-03-01,Debt collection,12354,4673.5,5490.932936348045,3,boost_d3_lr0.05_l21
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1157.318620889813,3,boost_d3_lr0.05_l21
+2024-03-01,Mortgage,1893,2010.5,1965.9981370011085,3,boost_d3_lr0.05_l21
+2024-03-01,Student loan,1323,465.5,1256.9070264331517,3,boost_d3_lr0.05_l21
+2024-03-01,Vehicle loan or lease,1333,609.5,1073.9004157177906,3,boost_d3_lr0.05_l21
+2024-04-01,Checking or savings account,4327,2323.5,4034.4580716707283,3,boost_d3_lr0.05_l21
+2024-04-01,Debt collection,12912,4673.5,5490.932936348045,3,boost_d3_lr0.05_l21
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1162.6744747157463,3,boost_d3_lr0.05_l21
+2024-04-01,Mortgage,1817,2010.5,1740.858456552033,3,boost_d3_lr0.05_l21
+2024-04-01,Student loan,1159,465.5,838.2900364124905,3,boost_d3_lr0.05_l21
+2024-04-01,Vehicle loan or lease,1094,609.5,1073.9004157177906,3,boost_d3_lr0.05_l21
+2024-05-01,Checking or savings account,4539,2323.5,4140.857782719193,3,boost_d3_lr0.05_l21
+2024-05-01,Debt collection,12426,4673.5,5429.628384543744,3,boost_d3_lr0.05_l21
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1389.8465331153282,3,boost_d3_lr0.05_l21
+2024-05-01,Mortgage,1713,2010.5,1870.2645763118437,3,boost_d3_lr0.05_l21
+2024-05-01,Student loan,1260,465.5,812.0731735242704,3,boost_d3_lr0.05_l21
+2024-05-01,Vehicle loan or lease,1050,609.5,1056.2320930214353,3,boost_d3_lr0.05_l21
+2024-06-01,Checking or savings account,3886,2323.5,4607.459937561839,3,boost_d3_lr0.05_l21
+2024-06-01,Debt collection,11099,4673.5,5341.108155596991,3,boost_d3_lr0.05_l21
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1126.7887392507012,3,boost_d3_lr0.05_l21
+2024-06-01,Mortgage,1575,2010.5,1746.6580564970607,3,boost_d3_lr0.05_l21
+2024-06-01,Student loan,987,465.5,785.8745620964163,3,boost_d3_lr0.05_l21
+2024-06-01,Vehicle loan or lease,946,609.5,1040.7523207755705,3,boost_d3_lr0.05_l21
+2023-01-01,Checking or savings account,6395,2323.5,3558.723023504248,1,boost_d3_lr0.1_l20
+2023-01-01,Debt collection,5871,4673.5,4149.859598847807,1,boost_d3_lr0.1_l20
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1191.4783224783278,1,boost_d3_lr0.1_l20
+2023-01-01,Mortgage,2837,2010.5,1725.210865861666,1,boost_d3_lr0.1_l20
+2023-01-01,Student loan,580,465.5,740.1664259574039,1,boost_d3_lr0.1_l20
+2023-01-01,Vehicle loan or lease,1505,609.5,864.5116439283527,1,boost_d3_lr0.1_l20
+2023-02-01,Checking or savings account,3944,2323.5,3705.236457360263,1,boost_d3_lr0.1_l20
+2023-02-01,Debt collection,5250,4673.5,4760.614828211095,1,boost_d3_lr0.1_l20
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1173.8127708862867,1,boost_d3_lr0.1_l20
+2023-02-01,Mortgage,2165,2010.5,1854.1981432635741,1,boost_d3_lr0.1_l20
+2023-02-01,Student loan,528,465.5,665.3272006145667,1,boost_d3_lr0.1_l20
+2023-02-01,Vehicle loan or lease,1170,609.5,867.5986637266913,1,boost_d3_lr0.1_l20
+2023-03-01,Checking or savings account,4299,2323.5,3828.818381630093,1,boost_d3_lr0.1_l20
+2023-03-01,Debt collection,6297,4673.5,5316.678385127152,1,boost_d3_lr0.1_l20
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1182.1140747890477,1,boost_d3_lr0.1_l20
+2023-03-01,Mortgage,2176,2010.5,2546.333819438033,1,boost_d3_lr0.1_l20
+2023-03-01,Student loan,515,465.5,784.0403998204497,1,boost_d3_lr0.1_l20
+2023-03-01,Vehicle loan or lease,1170,609.5,1343.0814153423844,1,boost_d3_lr0.1_l20
+2023-04-01,Checking or savings account,3477,2323.5,3818.5465432861215,1,boost_d3_lr0.1_l20
+2023-04-01,Debt collection,5514,4673.5,5341.982015560426,1,boost_d3_lr0.1_l20
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1210.5083647087367,1,boost_d3_lr0.1_l20
+2023-04-01,Mortgage,1658,2010.5,2056.293974469274,1,boost_d3_lr0.1_l20
+2023-04-01,Student loan,397,465.5,633.0099910199137,1,boost_d3_lr0.1_l20
+2023-04-01,Vehicle loan or lease,955,609.5,875.605458500633,1,boost_d3_lr0.1_l20
+2023-05-01,Checking or savings account,4084,2323.5,3837.4416070388966,1,boost_d3_lr0.1_l20
+2023-05-01,Debt collection,5867,4673.5,5142.07402985656,1,boost_d3_lr0.1_l20
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1139.9191388955176,1,boost_d3_lr0.1_l20
+2023-05-01,Mortgage,1887,2010.5,1895.8155419306474,1,boost_d3_lr0.1_l20
+2023-05-01,Student loan,410,465.5,530.9547039967413,1,boost_d3_lr0.1_l20
+2023-05-01,Vehicle loan or lease,1034,609.5,801.9731865012956,1,boost_d3_lr0.1_l20
+2023-06-01,Checking or savings account,3883,2323.5,3500.0915074353484,1,boost_d3_lr0.1_l20
+2023-06-01,Debt collection,5599,4673.5,5142.07402985656,1,boost_d3_lr0.1_l20
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1129.097099925526,1,boost_d3_lr0.1_l20
+2023-06-01,Mortgage,1703,2010.5,1710.8992388463312,1,boost_d3_lr0.1_l20
+2023-06-01,Student loan,397,465.5,450.41230081542597,1,boost_d3_lr0.1_l20
+2023-06-01,Vehicle loan or lease,929,609.5,802.6270281825424,1,boost_d3_lr0.1_l20
+2023-07-01,Checking or savings account,4279,2323.5,4079.32828656439,2,boost_d3_lr0.1_l20
+2023-07-01,Debt collection,5414,4673.5,5580.803236212925,2,boost_d3_lr0.1_l20
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1039.4826254484867,2,boost_d3_lr0.1_l20
+2023-07-01,Mortgage,1633,2010.5,1820.4469324284807,2,boost_d3_lr0.1_l20
+2023-07-01,Student loan,570,465.5,433.70257035211614,2,boost_d3_lr0.1_l20
+2023-07-01,Vehicle loan or lease,907,609.5,863.0059790634117,2,boost_d3_lr0.1_l20
+2023-08-01,Checking or savings account,4315,2323.5,3929.7438094849526,2,boost_d3_lr0.1_l20
+2023-08-01,Debt collection,5844,4673.5,5631.085391012343,2,boost_d3_lr0.1_l20
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1064.5569877317707,2,boost_d3_lr0.1_l20
+2023-08-01,Mortgage,1844,2010.5,1782.4632815985146,2,boost_d3_lr0.1_l20
+2023-08-01,Student loan,769,465.5,566.1816324748612,2,boost_d3_lr0.1_l20
+2023-08-01,Vehicle loan or lease,1253,609.5,943.3869429273576,2,boost_d3_lr0.1_l20
+2023-09-01,Checking or savings account,3811,2323.5,4052.155372776858,2,boost_d3_lr0.1_l20
+2023-09-01,Debt collection,5298,4673.5,5687.580946954219,2,boost_d3_lr0.1_l20
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1078.6077136026288,2,boost_d3_lr0.1_l20
+2023-09-01,Mortgage,1632,2010.5,1761.2009768312466,2,boost_d3_lr0.1_l20
+2023-09-01,Student loan,1423,465.5,842.9300756069364,2,boost_d3_lr0.1_l20
+2023-09-01,Vehicle loan or lease,946,609.5,943.3869429273576,2,boost_d3_lr0.1_l20
+2023-10-01,Checking or savings account,3795,2323.5,4547.67569608964,2,boost_d3_lr0.1_l20
+2023-10-01,Debt collection,5450,4673.5,5751.594774704456,2,boost_d3_lr0.1_l20
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1076.5477429142645,2,boost_d3_lr0.1_l20
+2023-10-01,Mortgage,1721,2010.5,1808.9923408912086,2,boost_d3_lr0.1_l20
+2023-10-01,Student loan,2130,465.5,1058.65239607902,2,boost_d3_lr0.1_l20
+2023-10-01,Vehicle loan or lease,1012,609.5,942.5413546867196,2,boost_d3_lr0.1_l20
+2023-11-01,Checking or savings account,3770,2323.5,3934.7420245155267,2,boost_d3_lr0.1_l20
+2023-11-01,Debt collection,5566,4673.5,5609.497556029433,2,boost_d3_lr0.1_l20
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1043.7415178622084,2,boost_d3_lr0.1_l20
+2023-11-01,Mortgage,1818,2010.5,1620.412117926187,2,boost_d3_lr0.1_l20
+2023-11-01,Student loan,1625,465.5,701.6696999683243,2,boost_d3_lr0.1_l20
+2023-11-01,Vehicle loan or lease,995,609.5,924.9385087450078,2,boost_d3_lr0.1_l20
+2023-12-01,Checking or savings account,3821,2323.5,4169.028629446278,2,boost_d3_lr0.1_l20
+2023-12-01,Debt collection,6137,4673.5,5358.284177741973,2,boost_d3_lr0.1_l20
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,993.7648586250151,2,boost_d3_lr0.1_l20
+2023-12-01,Mortgage,1779,2010.5,1791.6087549664733,2,boost_d3_lr0.1_l20
+2023-12-01,Student loan,1289,465.5,1022.3538926954678,2,boost_d3_lr0.1_l20
+2023-12-01,Vehicle loan or lease,918,609.5,960.1228376155905,2,boost_d3_lr0.1_l20
+2024-01-01,Checking or savings account,4032,2323.5,4480.860841583176,3,boost_d3_lr0.1_l20
+2024-01-01,Debt collection,7175,4673.5,6025.043856462135,3,boost_d3_lr0.1_l20
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1209.3367644169525,3,boost_d3_lr0.1_l20
+2024-01-01,Mortgage,1812,2010.5,2510.1480735847213,3,boost_d3_lr0.1_l20
+2024-01-01,Student loan,1617,465.5,1295.7934365147023,3,boost_d3_lr0.1_l20
+2024-01-01,Vehicle loan or lease,1070,609.5,1458.8359654072638,3,boost_d3_lr0.1_l20
+2024-02-01,Checking or savings account,3833,2323.5,4061.8797482264763,3,boost_d3_lr0.1_l20
+2024-02-01,Debt collection,8772,4673.5,5493.8875082785835,3,boost_d3_lr0.1_l20
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1118.2219826407024,3,boost_d3_lr0.1_l20
+2024-02-01,Mortgage,1942,2010.5,1923.3097571432152,3,boost_d3_lr0.1_l20
+2024-02-01,Student loan,1222,465.5,797.5615368809739,3,boost_d3_lr0.1_l20
+2024-02-01,Vehicle loan or lease,1032,609.5,1021.515121906526,3,boost_d3_lr0.1_l20
+2024-03-01,Checking or savings account,4257,2323.5,4079.8645561991298,3,boost_d3_lr0.1_l20
+2024-03-01,Debt collection,12354,4673.5,5493.8875082785835,3,boost_d3_lr0.1_l20
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1083.265148323725,3,boost_d3_lr0.1_l20
+2024-03-01,Mortgage,1893,2010.5,1922.5248701645278,3,boost_d3_lr0.1_l20
+2024-03-01,Student loan,1323,465.5,1149.7997930927681,3,boost_d3_lr0.1_l20
+2024-03-01,Vehicle loan or lease,1333,609.5,1021.515121906526,3,boost_d3_lr0.1_l20
+2024-04-01,Checking or savings account,4327,2323.5,3947.6432274779404,3,boost_d3_lr0.1_l20
+2024-04-01,Debt collection,12912,4673.5,5481.692405939775,3,boost_d3_lr0.1_l20
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1123.6754854688331,3,boost_d3_lr0.1_l20
+2024-04-01,Mortgage,1817,2010.5,1710.0743755236404,3,boost_d3_lr0.1_l20
+2024-04-01,Student loan,1159,465.5,759.2006440723624,3,boost_d3_lr0.1_l20
+2024-04-01,Vehicle loan or lease,1094,609.5,1041.2984212118308,3,boost_d3_lr0.1_l20
+2024-05-01,Checking or savings account,4539,2323.5,4104.977140515098,3,boost_d3_lr0.1_l20
+2024-05-01,Debt collection,12426,4673.5,5556.835519200033,3,boost_d3_lr0.1_l20
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1362.6488048990245,3,boost_d3_lr0.1_l20
+2024-05-01,Mortgage,1713,2010.5,1847.851141386665,3,boost_d3_lr0.1_l20
+2024-05-01,Student loan,1260,465.5,726.2521352539403,3,boost_d3_lr0.1_l20
+2024-05-01,Vehicle loan or lease,1050,609.5,1008.4160383742498,3,boost_d3_lr0.1_l20
+2024-06-01,Checking or savings account,3886,2323.5,4533.6536453546305,3,boost_d3_lr0.1_l20
+2024-06-01,Debt collection,11099,4673.5,5415.338467480584,3,boost_d3_lr0.1_l20
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1077.4151774141674,3,boost_d3_lr0.1_l20
+2024-06-01,Mortgage,1575,2010.5,1709.7750374355624,3,boost_d3_lr0.1_l20
+2024-06-01,Student loan,987,465.5,710.2940232078505,3,boost_d3_lr0.1_l20
+2024-06-01,Vehicle loan or lease,946,609.5,999.431164475121,3,boost_d3_lr0.1_l20
+2023-01-01,Checking or savings account,6395,2323.5,3678.1902371275137,1,boost_d3_lr0.1_l21
+2023-01-01,Debt collection,5871,4673.5,4377.907238297313,1,boost_d3_lr0.1_l21
+2023-01-01,"Money transfer, virtual currency, or money service",1269,874.0,1207.4784116282153,1,boost_d3_lr0.1_l21
+2023-01-01,Mortgage,2837,2010.5,1807.7360414406048,1,boost_d3_lr0.1_l21
+2023-01-01,Student loan,580,465.5,748.540400349421,1,boost_d3_lr0.1_l21
+2023-01-01,Vehicle loan or lease,1505,609.5,860.3506772806783,1,boost_d3_lr0.1_l21
+2023-02-01,Checking or savings account,3944,2323.5,3836.3961374759288,1,boost_d3_lr0.1_l21
+2023-02-01,Debt collection,5250,4673.5,4858.8848977710895,1,boost_d3_lr0.1_l21
+2023-02-01,"Money transfer, virtual currency, or money service",1066,874.0,1208.2220577780652,1,boost_d3_lr0.1_l21
+2023-02-01,Mortgage,2165,2010.5,1919.4818013057425,1,boost_d3_lr0.1_l21
+2023-02-01,Student loan,528,465.5,673.9293639694098,1,boost_d3_lr0.1_l21
+2023-02-01,Vehicle loan or lease,1170,609.5,871.9706819798878,1,boost_d3_lr0.1_l21
+2023-03-01,Checking or savings account,4299,2323.5,4206.673234959392,1,boost_d3_lr0.1_l21
+2023-03-01,Debt collection,6297,4673.5,5414.273857454375,1,boost_d3_lr0.1_l21
+2023-03-01,"Money transfer, virtual currency, or money service",1135,874.0,1190.9152259165753,1,boost_d3_lr0.1_l21
+2023-03-01,Mortgage,2176,2010.5,2700.4299519554447,1,boost_d3_lr0.1_l21
+2023-03-01,Student loan,515,465.5,811.9645214566979,1,boost_d3_lr0.1_l21
+2023-03-01,Vehicle loan or lease,1170,609.5,1421.6442103889349,1,boost_d3_lr0.1_l21
+2023-04-01,Checking or savings account,3477,2323.5,3987.396401263136,1,boost_d3_lr0.1_l21
+2023-04-01,Debt collection,5514,4673.5,5417.012071355684,1,boost_d3_lr0.1_l21
+2023-04-01,"Money transfer, virtual currency, or money service",1031,874.0,1201.6621389767317,1,boost_d3_lr0.1_l21
+2023-04-01,Mortgage,1658,2010.5,2157.9549438703452,1,boost_d3_lr0.1_l21
+2023-04-01,Student loan,397,465.5,667.4754744604774,1,boost_d3_lr0.1_l21
+2023-04-01,Vehicle loan or lease,955,609.5,888.0401220544401,1,boost_d3_lr0.1_l21
+2023-05-01,Checking or savings account,4084,2323.5,3991.6179986145557,1,boost_d3_lr0.1_l21
+2023-05-01,Debt collection,5867,4673.5,5309.261201374058,1,boost_d3_lr0.1_l21
+2023-05-01,"Money transfer, virtual currency, or money service",1116,874.0,1155.0156094917113,1,boost_d3_lr0.1_l21
+2023-05-01,Mortgage,1887,2010.5,1913.2637705952511,1,boost_d3_lr0.1_l21
+2023-05-01,Student loan,410,465.5,537.6251536394884,1,boost_d3_lr0.1_l21
+2023-05-01,Vehicle loan or lease,1034,609.5,790.8873128542847,1,boost_d3_lr0.1_l21
+2023-06-01,Checking or savings account,3883,2323.5,3633.795893037794,1,boost_d3_lr0.1_l21
+2023-06-01,Debt collection,5599,4673.5,5304.60453329327,1,boost_d3_lr0.1_l21
+2023-06-01,"Money transfer, virtual currency, or money service",1158,874.0,1117.8277962438624,1,boost_d3_lr0.1_l21
+2023-06-01,Mortgage,1703,2010.5,1729.577086799084,1,boost_d3_lr0.1_l21
+2023-06-01,Student loan,397,465.5,467.6664340785896,1,boost_d3_lr0.1_l21
+2023-06-01,Vehicle loan or lease,929,609.5,768.7486751693933,1,boost_d3_lr0.1_l21
+2023-07-01,Checking or savings account,4279,2323.5,4086.0493094966087,2,boost_d3_lr0.1_l21
+2023-07-01,Debt collection,5414,4673.5,5479.559064341186,2,boost_d3_lr0.1_l21
+2023-07-01,"Money transfer, virtual currency, or money service",1074,874.0,1057.7558834235563,2,boost_d3_lr0.1_l21
+2023-07-01,Mortgage,1633,2010.5,1828.4229876199026,2,boost_d3_lr0.1_l21
+2023-07-01,Student loan,570,465.5,463.3896376562377,2,boost_d3_lr0.1_l21
+2023-07-01,Vehicle loan or lease,907,609.5,868.1665884345939,2,boost_d3_lr0.1_l21
+2023-08-01,Checking or savings account,4315,2323.5,3968.473177953217,2,boost_d3_lr0.1_l21
+2023-08-01,Debt collection,5844,4673.5,5525.496735002533,2,boost_d3_lr0.1_l21
+2023-08-01,"Money transfer, virtual currency, or money service",1160,874.0,1073.0704464754933,2,boost_d3_lr0.1_l21
+2023-08-01,Mortgage,1844,2010.5,1788.1256766456142,2,boost_d3_lr0.1_l21
+2023-08-01,Student loan,769,465.5,560.490725245182,2,boost_d3_lr0.1_l21
+2023-08-01,Vehicle loan or lease,1253,609.5,948.7803370634435,2,boost_d3_lr0.1_l21
+2023-09-01,Checking or savings account,3811,2323.5,4086.598177762406,2,boost_d3_lr0.1_l21
+2023-09-01,Debt collection,5298,4673.5,5562.115227542909,2,boost_d3_lr0.1_l21
+2023-09-01,"Money transfer, virtual currency, or money service",1111,874.0,1088.4565080867212,2,boost_d3_lr0.1_l21
+2023-09-01,Mortgage,1632,2010.5,1738.728597766222,2,boost_d3_lr0.1_l21
+2023-09-01,Student loan,1423,465.5,787.9331837681195,2,boost_d3_lr0.1_l21
+2023-09-01,Vehicle loan or lease,946,609.5,945.9934916367912,2,boost_d3_lr0.1_l21
+2023-10-01,Checking or savings account,3795,2323.5,4575.051964924546,2,boost_d3_lr0.1_l21
+2023-10-01,Debt collection,5450,4673.5,5581.582660751443,2,boost_d3_lr0.1_l21
+2023-10-01,"Money transfer, virtual currency, or money service",1267,874.0,1078.659238816133,2,boost_d3_lr0.1_l21
+2023-10-01,Mortgage,1721,2010.5,1792.5179121560043,2,boost_d3_lr0.1_l21
+2023-10-01,Student loan,2130,465.5,966.4371006767418,2,boost_d3_lr0.1_l21
+2023-10-01,Vehicle loan or lease,1012,609.5,943.0365263430903,2,boost_d3_lr0.1_l21
+2023-11-01,Checking or savings account,3770,2323.5,3997.761060595086,2,boost_d3_lr0.1_l21
+2023-11-01,Debt collection,5566,4673.5,5540.52744840305,2,boost_d3_lr0.1_l21
+2023-11-01,"Money transfer, virtual currency, or money service",1130,874.0,1070.71925082005,2,boost_d3_lr0.1_l21
+2023-11-01,Mortgage,1818,2010.5,1653.492977708691,2,boost_d3_lr0.1_l21
+2023-11-01,Student loan,1625,465.5,725.4911331126912,2,boost_d3_lr0.1_l21
+2023-11-01,Vehicle loan or lease,995,609.5,946.7012188738902,2,boost_d3_lr0.1_l21
+2023-12-01,Checking or savings account,3821,2323.5,4156.682971834472,2,boost_d3_lr0.1_l21
+2023-12-01,Debt collection,6137,4673.5,5384.177538820868,2,boost_d3_lr0.1_l21
+2023-12-01,"Money transfer, virtual currency, or money service",1232,874.0,1049.0531296910244,2,boost_d3_lr0.1_l21
+2023-12-01,Mortgage,1779,2010.5,1815.9642197477003,2,boost_d3_lr0.1_l21
+2023-12-01,Student loan,1289,465.5,1137.7608463240083,2,boost_d3_lr0.1_l21
+2023-12-01,Vehicle loan or lease,918,609.5,947.4622825174849,2,boost_d3_lr0.1_l21
+2024-01-01,Checking or savings account,4032,2323.5,4434.824685289371,3,boost_d3_lr0.1_l21
+2024-01-01,Debt collection,7175,4673.5,5909.004496056275,3,boost_d3_lr0.1_l21
+2024-01-01,"Money transfer, virtual currency, or money service",1286,874.0,1231.7673773304114,3,boost_d3_lr0.1_l21
+2024-01-01,Mortgage,1812,2010.5,2488.742838503237,3,boost_d3_lr0.1_l21
+2024-01-01,Student loan,1617,465.5,1385.4103266250756,3,boost_d3_lr0.1_l21
+2024-01-01,Vehicle loan or lease,1070,609.5,1529.39594974592,3,boost_d3_lr0.1_l21
+2024-02-01,Checking or savings account,3833,2323.5,4106.41608489049,3,boost_d3_lr0.1_l21
+2024-02-01,Debt collection,8772,4673.5,5574.9782869504725,3,boost_d3_lr0.1_l21
+2024-02-01,"Money transfer, virtual currency, or money service",1306,874.0,1145.1579832675789,3,boost_d3_lr0.1_l21
+2024-02-01,Mortgage,1942,2010.5,1914.295078878306,3,boost_d3_lr0.1_l21
+2024-02-01,Student loan,1222,465.5,843.171738949577,3,boost_d3_lr0.1_l21
+2024-02-01,Vehicle loan or lease,1032,609.5,1108.9122180070317,3,boost_d3_lr0.1_l21
+2024-03-01,Checking or savings account,4257,2323.5,4172.992037687401,3,boost_d3_lr0.1_l21
+2024-03-01,Debt collection,12354,4673.5,5538.648035596009,3,boost_d3_lr0.1_l21
+2024-03-01,"Money transfer, virtual currency, or money service",1457,874.0,1128.7859937303563,3,boost_d3_lr0.1_l21
+2024-03-01,Mortgage,1893,2010.5,1933.0474442195875,3,boost_d3_lr0.1_l21
+2024-03-01,Student loan,1323,465.5,1209.01337798103,3,boost_d3_lr0.1_l21
+2024-03-01,Vehicle loan or lease,1333,609.5,1107.6139219869747,3,boost_d3_lr0.1_l21
+2024-04-01,Checking or savings account,4327,2323.5,3946.1299038655725,3,boost_d3_lr0.1_l21
+2024-04-01,Debt collection,12912,4673.5,5485.287041879037,3,boost_d3_lr0.1_l21
+2024-04-01,"Money transfer, virtual currency, or money service",1285,874.0,1145.1579832675789,3,boost_d3_lr0.1_l21
+2024-04-01,Mortgage,1817,2010.5,1724.7598161607311,3,boost_d3_lr0.1_l21
+2024-04-01,Student loan,1159,465.5,813.2119944397522,3,boost_d3_lr0.1_l21
+2024-04-01,Vehicle loan or lease,1094,609.5,1108.9122180070317,3,boost_d3_lr0.1_l21
+2024-05-01,Checking or savings account,4539,2323.5,4191.002751064839,3,boost_d3_lr0.1_l21
+2024-05-01,Debt collection,12426,4673.5,5562.551534232362,3,boost_d3_lr0.1_l21
+2024-05-01,"Money transfer, virtual currency, or money service",1351,874.0,1345.785533956009,3,boost_d3_lr0.1_l21
+2024-05-01,Mortgage,1713,2010.5,1887.7451584206894,3,boost_d3_lr0.1_l21
+2024-05-01,Student loan,1260,465.5,794.97867695593,3,boost_d3_lr0.1_l21
+2024-05-01,Vehicle loan or lease,1050,609.5,1083.0711611921954,3,boost_d3_lr0.1_l21
+2024-06-01,Checking or savings account,3886,2323.5,4590.676276576486,3,boost_d3_lr0.1_l21
+2024-06-01,Debt collection,11099,4673.5,5387.397612904911,3,boost_d3_lr0.1_l21
+2024-06-01,"Money transfer, virtual currency, or money service",1268,874.0,1086.2554864043107,3,boost_d3_lr0.1_l21
+2024-06-01,Mortgage,1575,2010.5,1759.8598017143272,3,boost_d3_lr0.1_l21
+2024-06-01,Student loan,987,465.5,749.5264344504935,3,boost_d3_lr0.1_l21
+2024-06-01,Vehicle loan or lease,946,609.5,1042.9285924089288,3,boost_d3_lr0.1_l21
