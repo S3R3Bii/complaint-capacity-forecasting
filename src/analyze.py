@@ -31,6 +31,21 @@ FOLDS = [('2023-01-01', '2023-07-01'), ('2023-07-01', '2024-01-01'),
          ('2024-01-01', '2024-07-01')]
 TEST_START = '2024-07-01'
 
+def available_training(frame, origin, delay):
+    """Only labels available by the origin under the assumed monthly delay."""
+    last_available = str(pd.Period(origin, freq='M') - delay) + '-01'
+    return frame[frame.month <= last_available]
+
+def metric_evidence(rows):
+    error = rows.prediction.to_numpy() - rows.complaints.to_numpy()
+    normalized = error / rows.scale.to_numpy()
+    return {'n': len(rows), 'mae_complaints': float(np.mean(np.abs(error))),
+            'mse_complaints_squared': float(np.mean(error**2)),
+            'rmse_complaints': float(np.sqrt(np.mean(error**2))),
+            'normalized_mae': float(np.mean(np.abs(normalized))),
+            'normalized_mse': float(np.mean(normalized**2)),
+            'normalized_rmse': float(np.sqrt(np.mean(normalized**2)))}
+
 def save_json(name, value):
     (OUT/name).write_text(json.dumps(value, indent=2, allow_nan=False), encoding='utf-8')
 
@@ -86,7 +101,7 @@ def feature_frame(db, delay):
     frame['month_sin'] = np.sin(2*np.pi*dates.dt.month/12)
     frame['month_cos'] = np.cos(2*np.pi*dates.dt.month/12)
     frame['trend'] = (dates.dt.year-2019)*12+dates.dt.month-1
-    initial = frame[frame.month < '2023-01-01']
+    initial = available_training(frame,FOLDS[0][0],delay)
     scales = initial.groupby('product').complaints.median().to_dict()
     frame['scale'] = frame['product'].map(scales)
     assert (frame.scale>0).all()
@@ -137,22 +152,30 @@ def moving_block_interval(monthly_delta, draws=2000):
 
 def run_scenario(db, delay):
     frame,lags,scales = feature_frame(db,delay)
-    validation, scores = {},[]
+    validation, scores, fold_metrics, split_manifest = {},[],[],[]
     for spec in candidates():
         print(f'lag {delay}: validating {spec["name"]}', flush=True)
         start_time = time.perf_counter()
         fold_predictions=[]
         for fold,(start,end) in enumerate(FOLDS):
-            training = frame[frame.month < start]
+            training = available_training(frame,start,delay)
             valid = frame[(frame.month >= start)&(frame.month < end)].copy()
             assert training.month.max() < valid.month.min()
             valid['prediction'] = predict(spec,training,valid,lags)
             valid['fold']=fold+1
+            fold_metrics.append({'model':spec['name'],'fold':fold+1,
+                                 **metric_evidence(valid)})
+            if spec == candidates()[0]:
+                split_manifest.append({'split':f'validation_{fold+1}',
+                    'origin':start, 'training_label_end':training.month.max(),
+                    'training_rows':len(training),'evaluation_start':valid.month.min(),
+                    'evaluation_end':valid.month.max(),'evaluation_rows':len(valid)})
             fold_predictions.append(valid[['month','product','complaints','scale','prediction','fold']])
         cv = pd.concat(fold_predictions)
         validation[spec['name']] = cv
         errors = np.abs(cv.complaints-cv.prediction)/cv.scale
         scores.append({**spec,'cv_normalized_mae':float(errors.mean()),
+                       **metric_evidence(cv),'status':'completed',
                        'elapsed_seconds':time.perf_counter()-start_time})
     scores.sort(key=lambda x:(x['cv_normalized_mae'],x['name']))
     winner = scores[0]
@@ -160,8 +183,12 @@ def run_scenario(db, delay):
     # A simple baseline is allowed to win; no ML promotion after viewing the test.
     included = [s for s in candidates() if s['kind']=='baseline' or s['name']==winner['name']
                 or s['name']==ml_winner['name']]
-    training = frame[frame.month<TEST_START]
+    training = available_training(frame,TEST_START,delay)
     target = frame[frame.month>=TEST_START].copy()
+    split_manifest.append({'split':'retrospective_test','origin':TEST_START,
+        'training_label_end':training.month.max(),'training_rows':len(training),
+        'evaluation_start':target.month.min(),'evaluation_end':target.month.max(),
+        'evaluation_rows':len(target)})
     point_predictions, capacities = [],[]
     for spec in included:
         test = target[['month','product','complaints','scale']].copy()
@@ -199,13 +226,20 @@ def run_scenario(db, delay):
              'block_resampling_interval_95':moving_block_interval(delta)})
     prefix=f'lag{delay}'
     pd.DataFrame(scores).to_csv(OUT/f'{prefix}_tuning.csv',index=False)
+    pd.DataFrame(fold_metrics).to_csv(OUT/f'{prefix}_fold_metrics.csv',index=False)
+    pd.DataFrame([{'model':name,**metric_evidence(part)} for name,part in
+                  predictions.groupby('model')]).to_csv(OUT/f'{prefix}_test_metrics.csv',index=False)
+    save_json(f'{prefix}_split_manifest.json',split_manifest)
     pd.concat([v.assign(model=k) for k,v in validation.items()]).to_csv(OUT/f'{prefix}_validation_predictions.csv',index=False)
     predictions.to_csv(OUT/f'{prefix}_test_predictions.csv',index=False)
     policies.to_csv(OUT/f'{prefix}_capacity_policies.csv',index=False)
     frame.to_csv(OUT/f'{prefix}_features.csv',index=False)
     summary={'delay_months':delay,'selected_model':winner['name'],
        'selected_ml_model':ml_winner['name'],'selected_baseline':baseline,
-       'initial_training_rows':288,'validation_rows':108,'test_rows':144,
+       'initial_training_rows':split_manifest[0]['training_rows'],'validation_rows':108,'test_rows':144,
+       'evaluation_status':'Corrected retrospective evaluation; test previously inspected. No new confirmatory claim.',
+       'selection_metric':'Pooled validation normalized MAE; lower is better; model name breaks ties.',
+       'search_limit':'Finite prespecified grid, not a global optimum. Ridge alpha 0.1 and 100 are search boundaries.',
        'product_scales':scales,'validation_score':winner['cv_normalized_mae'],
        'test_normalized_mae':predictions.groupby('model').normalized_absolute_error.mean().to_dict(),
        'capacity_comparisons':comparisons}
@@ -214,6 +248,14 @@ def run_scenario(db, delay):
 
 def main():
     OUT.mkdir(exist_ok=True)
+    save_json('search_manifest.json',{'seed':SEED,'candidates':candidates(),
+       'objective':'Pooled validation normalized MAE','tie_break':'Model name ascending',
+       'folds':FOLDS,'test_start':TEST_START,'delays':[2,3],
+       'boost_fixed':{'max_iter':100,'min_samples_leaf':12,'early_stopping':False},
+       'target_transform':'log1p; invert expm1; clip negative predictions to zero',
+       'normalization':'Per-product median using labels available at first validation origin',
+       'test_status':'Previously inspected; corrected retrospective evaluation',
+       'search_extension':'None; no test-driven extension or new confirmatory claim'})
     db=build_database()
     summaries=[run_scenario(db,delay) for delay in [2,3]]
     save_json('execution.json',{'completed_utc':datetime.now(timezone.utc).isoformat(),

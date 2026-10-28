@@ -2,6 +2,10 @@
 
 Protocol fixed on 28 October 2026 before model fitting or test scoring. The initial API probe checked January 2025 availability; category coverage was inspected across the retrieved snapshot to choose labels that persist for all 102 months. No model result informed these choices.
 
+**Correction on 28 October 2026 after initial test inspection.** The original implementation delayed features but allowed training labels and normalization medians through the month before each prediction origin. That violated the assumed reporting delay. The corrected implementation ends training labels at origin minus delay and freezes normalization using the same boundary at the first fold. Thus initial lag-2 training ends November 2022, lag-3 ends October 2022; final refits end May and April 2024, respectively. The original wording below records the initial protocol; these corrected boundaries supersede it. Candidate grid, folds and selection objective are unchanged. The rerun reuses an inspected test set and is a corrected retrospective evaluation, not a new confirmatory test. Original results remain in Git history at cc767b447c1f93d7ace7d2fdd8e10f42706b2965.
+
+**Metric evidence.** Export raw and normalized MAE, MSE and RMSE for every validation candidate, every fold and each frozen test comparator. The selection objective remains normalized MAE; supplementary MSE/RMSE cannot change the selected model. Report boundary winners rather than claiming global optimality. See MODEL_VALIDATION_STANDARD.md and the independent optimization verifier.
+
 **Decision.** Choose a monthly capacity forecast when an unhandled complaint and an unused unit of capacity have unequal costs. The population is published CFPB complaints, not all consumer problems, company customer counts, or actual staffing hours.
 
 **Data.** January 2018–June 2026, six consistently named products: checking/savings, debt collection, money transfer, mortgage, student loan, vehicle loan/lease. Use aggregate counts only. Exclude categories that were split or renamed. A stable label does not prove stable reporting behavior.

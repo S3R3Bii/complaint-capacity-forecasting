@@ -41,7 +41,7 @@ def main():
         for folder in ("data", "src", "sql", "results"):
             shutil.copytree(ROOT/folder, replay/folder, ignore=shutil.ignore_patterns("__pycache__", "*.sqlite"))
         (replay/"figures").mkdir()
-        for script in ("analyze.py", "verify.py", "verify_intervals.py", "figures.py"):
+        for script in ("analyze.py", "verify.py", "verify_intervals.py", "verify_optimization.py", "figures.py"):
             result = subprocess.run(
                 [sys.executable, str(replay/"src"/script)], cwd=replay,
                 capture_output=True, text=True, timeout=300, check=False,

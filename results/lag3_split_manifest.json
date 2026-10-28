@@ -1,0 +1,38 @@
+[
+  {
+    "split": "validation_1",
+    "origin": "2023-01-01",
+    "training_label_end": "2022-10-01",
+    "training_rows": 276,
+    "evaluation_start": "2023-01-01",
+    "evaluation_end": "2023-06-01",
+    "evaluation_rows": 36
+  },
+  {
+    "split": "validation_2",
+    "origin": "2023-07-01",
+    "training_label_end": "2023-04-01",
+    "training_rows": 312,
+    "evaluation_start": "2023-07-01",
+    "evaluation_end": "2023-12-01",
+    "evaluation_rows": 36
+  },
+  {
+    "split": "validation_3",
+    "origin": "2024-01-01",
+    "training_label_end": "2023-10-01",
+    "training_rows": 348,
+    "evaluation_start": "2024-01-01",
+    "evaluation_end": "2024-06-01",
+    "evaluation_rows": 36
+  },
+  {
+    "split": "retrospective_test",
+    "origin": "2024-07-01",
+    "training_label_end": "2024-04-01",
+    "training_rows": 384,
+    "evaluation_start": "2024-07-01",
+    "evaluation_end": "2026-06-01",
+    "evaluation_rows": 144
+  }
+]

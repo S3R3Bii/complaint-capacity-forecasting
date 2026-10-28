@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-10-28T17:06:11.651490+00:00",
+  "timestamp_utc": "2026-10-28T18:04:49.340595+00:00",
   "status": "PASS within enumerated checks",
   "checks": [
     "All 102 source hashes and exact aggregate totals reconcile",
@@ -12,21 +12,28 @@
     "No production deployment, actual cost saving or causal effect was tested."
   ],
   "artifact_sha256": {
-    "results/execution.json": "050f12868b5091682d40d67c9c6d5908201849d4a6220f64c1eacbb35aa80f59",
+    "results/execution.json": "f95e19487c86ca9a066b2fbaf87a1e8b562bdf0773e139fa35a86e1276c0dab2",
     "results/interval_verification.json": "e9c22cd36d2f6eb1bdf81c1e29d54d04748977582caa1f0169ed8ebe99a26e7a",
-    "results/lag2_capacity_policies.csv": "91e99717deb458d9f7d10049a7bea26ffb3c0024c966bbd03d67c973920bc27d",
-    "results/lag2_features.csv": "73fdad8506a2bfc5ff26a8fd6c0b806c2acf5a44dc0f83e7d11a2dc67041d1ea",
-    "results/lag2_summary.json": "35a5a4999159d960056d2097725512650e51f892616900ac509e6236e49e5c92",
-    "results/lag2_test_predictions.csv": "b4956cedd3e6fe12be1043a52e4b2415aebe299e1749c9fd8b036821a304bd26",
-    "results/lag2_tuning.csv": "8ff490a6fd34f892275472bd0923c20773ed224112d5db9e1bf00ba48f2fc699",
-    "results/lag2_validation_predictions.csv": "63586ff4bf3804f478bb9054ba47ca5e893d81cb56306a00ae5850093cb2ef0f",
-    "results/lag3_capacity_policies.csv": "787260e99748bc0437019e39c0816e75b095a4e314ebd381cc3c0285230ec399",
-    "results/lag3_features.csv": "f250f8b8642a65fe0cb164a96192e76373029f6ad889bee4b5b726e775866d9a",
-    "results/lag3_summary.json": "82ec6c39fb743c508cfda8d85b558e3c9d926c793ddc766703af87a8adb2311e",
-    "results/lag3_test_predictions.csv": "6fa4c83041a6cae00d884d6695bb7b423d17d4c0720bd9bfe7e1dff13b51075a",
-    "results/lag3_tuning.csv": "c5334b5f9b3dac4f5f96312bb4eda0d33b49d8fd37b5f8d12eb0e1b4e05797d4",
-    "results/lag3_validation_predictions.csv": "c6889b9801b278ce68e706da1724c5bff276a6781fc05bc65c65fcfca73c657f",
+    "results/lag2_capacity_policies.csv": "f2d02f19d1b36d89d27338a4a0c3cd638e0f2c0089d1d32b762dd85f73971eb0",
+    "results/lag2_features.csv": "c5a84bc29c721117392d7bff96b12be975f7ea7cca91b57fd1ff2cacd909edfb",
+    "results/lag2_fold_metrics.csv": "a56e448e6b760d9a445d00e47cf5e1a12df52ec13a9d9975f3f3e51fe6e1f227",
+    "results/lag2_split_manifest.json": "b7a6d554b06668819ca3cc4be380dcedb89016cef1a0024061884b553a47933c",
+    "results/lag2_summary.json": "0501aa9344038944f3b235ffb8da325f4fe0e2cc64788bf26fd2e80f16b8d377",
+    "results/lag2_test_metrics.csv": "635fd59a98c8ba808722d9d59c91b6cdbaaecf4ac90ad5e474adec367f2037e6",
+    "results/lag2_test_predictions.csv": "932991d609c730d2253228ccd2918e59ecdd1a73ae2aecbe81b6e38787efa7b5",
+    "results/lag2_tuning.csv": "cdef1a129b8c4f78795864f2e55d7858f31284b59eed3b8f3a13bc894ae9203c",
+    "results/lag2_validation_predictions.csv": "cb547a5b8bf8db06738c42a69912b144edab3b14b977ddf9adb62bf01376dcb6",
+    "results/lag3_capacity_policies.csv": "c118343d1a85907db675971b80a138acaa970e3fc08a43c774c86834376e2bbc",
+    "results/lag3_features.csv": "d00473b1d9a36d82e6b9828d75048f27b635320fdc9aff947dd71a286ae6d195",
+    "results/lag3_fold_metrics.csv": "f9275ed7e64d1fc256e22e64d3e5a7d8af172b826f73f197a8c9cda18e15324f",
+    "results/lag3_split_manifest.json": "88e9bc36e1d2320eeaacdbd96b09a963887f49543eee085839578d40a9b5037a",
+    "results/lag3_summary.json": "66177f797eba6c53df8d59fef5f4a98c4af5f7a9993c0873eacf074c255f2cca",
+    "results/lag3_test_metrics.csv": "707aa2cd0f81f89c7d9e1dad3736f78b914869571c01a78e7be1191f69a5771c",
+    "results/lag3_test_predictions.csv": "6554feb4864c97b040761969df782acc033a13a097f64db8c5c05e08fb838b47",
+    "results/lag3_tuning.csv": "ec9b030e571fb84711b9faf5c2afa644eee5ef7e1b994e0f1ee302ffecb8dff0",
+    "results/lag3_validation_predictions.csv": "fad8eb156771fd75e983ed2bf2cec65099689a96fbd100132e3b25ca3a684ce3",
     "results/product_test_errors.csv": "61d16f837e5361a7a45f993f74e92ea0777023e81213ea71a9163cc9b62d753d",
+    "results/search_manifest.json": "d263307a408288c9541d8f6cb55d64dff0a65c82589ce7b29731f59a3d27ce9b",
     "results/source_reconciliation.json": "68ff176b253884bd280a3165d9a715d3a73c7867d9ee5108c69001950eaf9f44"
   }
 }

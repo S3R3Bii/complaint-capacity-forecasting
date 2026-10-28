@@ -1,0 +1,123 @@
+{
+  "seed": 20261028,
+  "candidates": [
+    {
+      "name": "last_available",
+      "kind": "baseline"
+    },
+    {
+      "name": "trailing_mean",
+      "kind": "baseline"
+    },
+    {
+      "name": "seasonal",
+      "kind": "baseline"
+    },
+    {
+      "name": "ridge_a0.1",
+      "kind": "ridge",
+      "alpha": 0.1
+    },
+    {
+      "name": "ridge_a1",
+      "kind": "ridge",
+      "alpha": 1
+    },
+    {
+      "name": "ridge_a10",
+      "kind": "ridge",
+      "alpha": 10
+    },
+    {
+      "name": "ridge_a100",
+      "kind": "ridge",
+      "alpha": 100
+    },
+    {
+      "name": "boost_d2_lr0.05_l20",
+      "kind": "boost",
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "l2_regularization": 0
+    },
+    {
+      "name": "boost_d2_lr0.05_l21",
+      "kind": "boost",
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "l2_regularization": 1
+    },
+    {
+      "name": "boost_d2_lr0.1_l20",
+      "kind": "boost",
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "l2_regularization": 0
+    },
+    {
+      "name": "boost_d2_lr0.1_l21",
+      "kind": "boost",
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "l2_regularization": 1
+    },
+    {
+      "name": "boost_d3_lr0.05_l20",
+      "kind": "boost",
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "l2_regularization": 0
+    },
+    {
+      "name": "boost_d3_lr0.05_l21",
+      "kind": "boost",
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "l2_regularization": 1
+    },
+    {
+      "name": "boost_d3_lr0.1_l20",
+      "kind": "boost",
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "l2_regularization": 0
+    },
+    {
+      "name": "boost_d3_lr0.1_l21",
+      "kind": "boost",
+      "max_depth": 3,
+      "learning_rate": 0.1,
+      "l2_regularization": 1
+    }
+  ],
+  "objective": "Pooled validation normalized MAE",
+  "tie_break": "Model name ascending",
+  "folds": [
+    [
+      "2023-01-01",
+      "2023-07-01"
+    ],
+    [
+      "2023-07-01",
+      "2024-01-01"
+    ],
+    [
+      "2024-01-01",
+      "2024-07-01"
+    ]
+  ],
+  "test_start": "2024-07-01",
+  "delays": [
+    2,
+    3
+  ],
+  "boost_fixed": {
+    "max_iter": 100,
+    "min_samples_leaf": 12,
+    "early_stopping": false
+  },
+  "target_transform": "log1p; invert expm1; clip negative predictions to zero",
+  "normalization": "Per-product median using labels available at first validation origin",
+  "test_status": "Previously inspected; corrected retrospective evaluation",
+  "search_extension": "None; no test-driven extension or new confirmatory claim"
+}
