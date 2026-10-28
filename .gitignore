@@ -6,3 +6,12 @@ data/raw-aggregates/
 *.tex
 manuscript*/
 private/
+
+# Explicitly approved independent research source.
+!paper/main.tex
+
+# Explicitly approved independent research source.
+!paper/main.tex
+
+# Explicitly approved independent research source.
+!paper/main.tex

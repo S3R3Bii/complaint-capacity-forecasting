@@ -1,0 +1,11 @@
+{
+  "scope": "independent-program-study",
+  "study_id": "01",
+  "formal_submission_target": false,
+  "authorization": "Owner explicitly authorized GitHub publication of these study manuscripts on 28 October 2026; formal-publication projects including Azure optimization remain excluded.",
+  "public_files": {
+    "paper/main.tex": "453aeb78e578cabcb6ed2282f12426b5ccd69b33f4ddb39b0c53a6da52fa3093",
+    "paper/manuscript.pdf": "0c7aa16430b981f0c2ea28479cd78a6072a4a75b30312aa85631f199e3fbd968",
+    "paper/images/forecast-and-decision.pdf": "d680358beae6947f11979bbb63389337a8d309174965bfb4e91c82ceca81375e"
+  }
+}

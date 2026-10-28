@@ -1,3 +1,6 @@
 # Snapshot and result receipts hash the original bytes, including line endings.
 data/** -text whitespace=cr-at-eol
 results/** -text whitespace=cr-at-eol
+
+# Keep reviewed manuscript and manifest bytes identical across platforms.
+paper/** -text whitespace=cr-at-eol

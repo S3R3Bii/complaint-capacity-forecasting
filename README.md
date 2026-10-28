@@ -1,5 +1,7 @@
 # Complaint demand: when a better forecast is not yet a better decision
 
+[Research manuscript: PDF and LaTeX](paper/README.md)
+
 **SQL · Python · time-series validation · model selection · decision analysis**
 
 A financial-services operations team must choose review capacity before the incoming workload is known. This study asks whether improved prediction translates into a better capacity decision when shortages cost more than surplus capacity.
@@ -94,4 +96,4 @@ The API documentation described an exclusive maximum date. A same-day probe retu
 
 Complaint counts reflect reporting and publication processes, not the prevalence of consumer harm. This six-product panel omits major renamed categories. The test has only 24 months, large surges and no institution-specific service times. Residual calibration pools products; the uncertainty intervals depend on the chosen six-month blocks. The analysis is observational and does not identify causes of complaint surges.
 
-The next experiment would collect release vintages, evaluate product-specific calibration and use real operational cost estimates. This is an independent, AI-assisted research study. Code, source snapshots and independent checks are available for inspection. Manuscript drafts remain private.
+The next experiment would collect release vintages, evaluate product-specific calibration and use real operational cost estimates. This is an independent, AI-assisted research study. Code, source snapshots and independent checks are available for inspection. The independent research manuscript is available in [PDF and LaTeX](paper/README.md); it has not been peer reviewed.
